@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9GggI7M1JEKW36XuKEhQIg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/reports/upload" CVScreenId="65f681a0-036d-496f-a97f-a5535b83a921" CvElementArea="208, 459, 528, 26" CvType="InputBox" DesignTimeRectangle="212, 465, 503, 15" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname='Имя файла:' cls='Edit' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Имя файла:' cls='Edit' /&gt;" Guid="06f9c656-10ff-42e2-83f3-33423922ea94" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='msedge.exe' title='Открытие' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="65f681a0-036d-496f-a97f-a5535b83a921" CvTextArea="137, 465, 66, 15" CvTextArgument="MMA gaňna:" CvType="Text" DesignTimeRectangle="138, 464, 65, 15" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlid='1090' title='&amp;amp;Имя файла:' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1090' title='&amp;amp;Имя файла:' check:text='&amp;amp;Имя файла:' /&gt;" Guid="90709cec-829c-4cc1-b76e-d93ed547f210" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="14d308298667fa7e2ab96c9af3d45414.png" xmlns="">0fnkNHk0hwEGkQpbooZnB-Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

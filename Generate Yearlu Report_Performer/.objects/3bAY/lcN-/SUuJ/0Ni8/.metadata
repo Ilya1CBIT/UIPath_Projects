@@ -1,0 +1,14 @@
+﻿{
+  "Name": "&Открыть",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "0Ni8XMcblkeHsnwGbbu0fw",
+  "Reference": "y28YoCiVt0-myIefSCvrfA/0Ni8XMcblkeHsnwGbbu0fw",
+  "ParentRef": "y28YoCiVt0-myIefSCvrfA/SUuJ1Wj2KUO9USnSke7l7A",
+  "Created": "2025-03-17T12:33:04.0880193Z",
+  "Updated": "2025-03-17T12:33:04.0880193Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eeTO6Tngl0anAEaSOuvr-w" Reference="y28YoCiVt0-myIefSCvrfA/9VOzlEXC_kaTjzNo2025Gw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/reports/download" CVScreenId="166f5355-6c77-406a-9c75-d2014590a7f9" CvElementArea="466, 561, 223, 36" CvType="InputBox" DesignTimeRectangle="481, 569, 181, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="[string.Format(&quot;&lt;webctrl aaname='---' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;span' parentid='searchForm' tag='SPAN' innertext='{0}' /&gt;&quot;, in_Year)]" FuzzySelectorArgument="&lt;webctrl type='' parentid='searchForm' tag='SPAN' class='filter-option pull-left' /&gt;" Guid="01fda84b-335f-4f3a-b8da-748f663e7d13" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Download Monthly Report' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="166f5355-6c77-406a-9c75-d2014590a7f9" CvTextArea="467, 540, 35, 13" CvTextArgument="Year:" CvType="Text" DesignTimeRectangle="468, 537, 34, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Year:' tag='LABEL' type='' class='' check:innerText='Year:' /&gt;" Guid="53ecf02a-ad8f-4cc3-9d48-ba6f6296607e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3eda105f2d916674c3fb7ca48d67e92b.png" xmlns="">0GQVXSuGrt0W_4pe_5G-OEg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="in_Year" />
+    </scg:List>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

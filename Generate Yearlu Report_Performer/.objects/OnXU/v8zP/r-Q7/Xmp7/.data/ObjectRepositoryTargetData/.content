@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ujGaWxp9U0m6KFXEHNYgxQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/reports/download" CVScreenId="3b25a386-88c2-4020-b947-b69e3fc08447" CvTextArea="467, 739, 212, 16" CvTextArgument="Copyright © 2025 ACME Systems" CvType="Text" DesignTimeRectangle="468, 736, 1000, 20" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='P' class='' aaname='Copyright © 2025 ACME Systems' check:innerText='Copyright © 2025 ACME Systems' /&gt;" Guid="b2c583a7-9b09-497d-94f8-a500c4df0400" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Download Monthly Report' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="33eac736b0e9c916440ef7e112c23e95.png" xmlns="">0M4oS6pb_j06I8WNO6_BikA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge ACME System 1 - Upload Yearly Report",
+  "Type": "App",
+  "Id": "3bAYt-dY1Uet8Z4Ingirlw",
+  "Reference": "y28YoCiVt0-myIefSCvrfA/3bAYt-dY1Uet8Z4Ingirlw",
+  "Created": "2025-03-17T12:25:26.9315947Z",
+  "Updated": "2025-03-17T12:25:26.9315947Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

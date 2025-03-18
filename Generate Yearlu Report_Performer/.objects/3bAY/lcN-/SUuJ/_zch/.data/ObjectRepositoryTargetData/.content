@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cQCz5hjmqECip84xe7O8Hg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/reports/upload" CVScreenId="e3a732f1-f7cb-4b88-8c81-561db0d88232" CvElementArea="1111, 172, 67, 35" CvTextArea="1133, 183, 20, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1112, 174, 64, 32" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Сообщение с acme-test.uipath.com:' role='dialog' /&gt;&lt;ctrl name='ОК' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Сообщение с acme-test.uipath.com:' role='dialog' /&gt;&lt;ctrl name='ОК' role='push button' automationid='' check:fulltext='ОК' /&gt;" Guid="5a9d9f69-4745-4d87-9d60-1db4ccb68f02" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Upload Yearly Report — Профиль 1: Microsoft​ Edg*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fba6bd55c15d6ea1aff99ca8b1bac696.png" xmlns="">0T1KQFrvrJ0ugZanKbscgsg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "&Имя файла",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "-xtjk3sTu02--rd-VPPmLw",
+  "Reference": "y28YoCiVt0-myIefSCvrfA/-xtjk3sTu02--rd-VPPmLw",
+  "ParentRef": "y28YoCiVt0-myIefSCvrfA/SUuJ1Wj2KUO9USnSke7l7A",
+  "Created": "2025-03-17T12:31:14.9090699Z",
+  "Updated": "2025-03-17T12:31:14.9090699Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

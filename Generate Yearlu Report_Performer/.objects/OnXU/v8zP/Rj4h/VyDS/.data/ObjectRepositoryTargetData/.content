@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PRpALSMnlU2q2Oo2dHsngQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items/105292722" DesignTimeRectangle="499, 459, 373, 80" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='P' parentclass='col-lg-5' idx='1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='P' parentclass='col-lg-5' type='' class='' aaname='                              FR329083                              Blue Lagoon                              Avenue Foch 28                              Paris, France                         ' /&gt;" Guid="9a5bcedb-16d5-4115-a3cf-4ca2752a9e87" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9ac09379-e6bc-415a-a619-74aee32d811a" CvTextArea="497, 430, 154, 16" CvTextArgument="Vendor Information" CvType="Text" DesignTimeRectangle="499, 430, 373, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H4' type='' class='' aaname='Vendor Information' check:innerText='Vendor Information' /&gt;" Guid="c7ca7d69-9fab-40ef-a4f5-e62a98bfd56b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5f1d47c2875e6cf9e9bb5477e144f516.png" xmlns="">0SHmEyoDxPkS_Ed0keylfvw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

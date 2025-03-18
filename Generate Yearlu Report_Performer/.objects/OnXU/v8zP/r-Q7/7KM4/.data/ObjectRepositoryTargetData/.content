@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="S_xWOAOmX0ey7369vZn55Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/reports/download" DesignTimeRectangle="1800, 47, 40, 30" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='ACME System 1 - Download Monthly Report: Microsoft Edge: Профиль*' role='pane' /&gt;&lt;ctrl name='Панель приложения' role='tool bar' /&gt;&lt;ctrl name='Загрузки*' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ACME System 1 - Download Monthly Report: Microsoft Edge: Профиль*' role='pane' /&gt;&lt;ctrl name='Панель приложения' role='tool bar' /&gt;&lt;ctrl name='Загрузки' role='push button' automationid='' check:text='Загрузки*' /&gt;" Guid="79c37bce-7da0-4441-bc7e-df9a2cc6f73a" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Download Monthly Report и еще 4 страницы — Профи*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="79deb83ce7e037f867eb6487f61cfd41.png" xmlns="">0Eg5tdC2pbEWLseJB74ZzhQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

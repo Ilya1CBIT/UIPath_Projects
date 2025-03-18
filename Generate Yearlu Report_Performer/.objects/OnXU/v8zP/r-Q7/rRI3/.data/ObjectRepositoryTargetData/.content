@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="u289XpKTxkW-So0LLgl5-A" Reference="y28YoCiVt0-myIefSCvrfA/rRI3YSXhzES-YEDKVcbdNg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/reports/download" DesignTimeRectangle="73, 73, 278, 32" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Загрузки' role='document' /&gt;&lt;ctrl name='Что вы хотите сделать с файлом Report*? Открыть Со*' role='outline item' /&gt;&lt;ctrl name='Что вы хотите сделать с файлом Report*?' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Загрузки' role='document' /&gt;&lt;ctrl name='Что вы хотите сделать с файлом Report*? Открыть Со*' role='outline item' /&gt;&lt;ctrl role='text' automationid='' /&gt;" Guid="bef10d61-88aa-41e1-afea-1e012d3268d2" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b9b25cc45e25f515bcb1ad332782e2d9.png" xmlns="">0trgocbqX6EyQC6Mmn4b-0A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

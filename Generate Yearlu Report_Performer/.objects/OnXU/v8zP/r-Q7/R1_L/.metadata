@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Со&хранить",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "R1_Lo5OwCkCTbNr2cETy2Q",
+  "Reference": "y28YoCiVt0-myIefSCvrfA/R1_Lo5OwCkCTbNr2cETy2Q",
+  "ParentRef": "y28YoCiVt0-myIefSCvrfA/r-Q70mg0UEeiXVMNmBv74Q",
+  "Created": "2025-03-17T10:58:08.7383248Z",
+  "Updated": "2025-03-17T10:58:08.7383248Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

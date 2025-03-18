@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Сохранить как",
+  "Type": "Element",
+  "Id": "w6zzL0YX6EKEXJpkTGFtKQ",
+  "Reference": "y28YoCiVt0-myIefSCvrfA/w6zzL0YX6EKEXJpkTGFtKQ",
+  "ParentRef": "y28YoCiVt0-myIefSCvrfA/r-Q70mg0UEeiXVMNmBv74Q",
+  "Created": "2025-03-16T22:02:23.3252244Z",
+  "Updated": "2025-03-16T22:02:23.3252244Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lZdomoZg4kmdm9xJvCE4jg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/reports/download" DesignTimeRectangle="744, 79, 448, 143" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl name='Сообщение с acme-test.uipath.com:' role='dialog' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Сообщение с acme-test.uipath.com:' role='dialog' automationid='' check:fulltext='Сообщение с acme-test.uipath.com:&amp;#xD;&amp;#xA;No report found for this vendor / month / year that you have specified.&amp;#xD;&amp;#xA;ОК' /&gt;" Guid="8a7e7bd4-9cbb-46e8-bc3e-d38e63b66dfd" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Download Monthly Report и еще 1 страница — Профи*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f56cb0701c78696a8e3732ac803a87a2.png" xmlns="">0z8AAt3WFEUqst3M3kE-HNA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Copyright © new Date().…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Xmp7pQLui0ODjMmCmSQU0g",
+  "Reference": "y28YoCiVt0-myIefSCvrfA/Xmp7pQLui0ODjMmCmSQU0g",
+  "ParentRef": "y28YoCiVt0-myIefSCvrfA/r-Q70mg0UEeiXVMNmBv74Q",
+  "Created": "2025-03-17T11:10:49.6443617Z",
+  "Updated": "2025-03-17T11:10:49.6443617Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

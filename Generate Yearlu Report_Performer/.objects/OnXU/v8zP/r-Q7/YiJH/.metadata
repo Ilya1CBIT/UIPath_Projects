@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Сообщение с acme-test.u…",
+  "Type": "Element",
+  "Id": "YiJHbQKTn0qz-oMGzc9NAA",
+  "Reference": "y28YoCiVt0-myIefSCvrfA/YiJHbQKTn0qz-oMGzc9NAA",
+  "ParentRef": "y28YoCiVt0-myIefSCvrfA/r-Q70mg0UEeiXVMNmBv74Q",
+  "Created": "2025-03-16T21:19:23.6385402Z",
+  "Updated": "2025-03-16T21:19:23.6385402Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

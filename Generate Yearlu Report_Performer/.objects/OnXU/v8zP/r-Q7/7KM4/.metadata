@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Загрузки, файл требует …",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "7KM4ILnRHEWF0_rOs0CVmA",
+  "Reference": "y28YoCiVt0-myIefSCvrfA/7KM4ILnRHEWF0_rOs0CVmA",
+  "ParentRef": "y28YoCiVt0-myIefSCvrfA/r-Q70mg0UEeiXVMNmBv74Q",
+  "Created": "2025-03-16T21:59:32.9035086Z",
+  "Updated": "2025-03-16T21:59:32.9035086Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

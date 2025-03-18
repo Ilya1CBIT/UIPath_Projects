@@ -1,0 +1,15 @@
+{
+  "Value": {
+    "Main.xaml": [
+      {
+        "IsEnabled": true,
+        "Annotation": null,
+        "Id": "514a5eb3-2d10-46d0-adee-3ed518bc3c6f",
+        "ActivityIdRef": "Sequence_34",
+        "ActivityId": "1.163",
+        "ActivityName": "Sequence Clean Up",
+        "IsTransient": false
+      }
+    ]
+  }
+}
