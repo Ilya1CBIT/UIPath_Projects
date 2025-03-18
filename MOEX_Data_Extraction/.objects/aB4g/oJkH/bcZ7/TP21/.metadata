@@ -1,0 +1,14 @@
+﻿{
+  "Name": "USDRUB - Доллар США к …(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "TP21_sVuF06aTbSNe-Fb6Q",
+  "Reference": "Q-buPLdRoUarMVgK3VUZoQ/TP21_sVuF06aTbSNe-Fb6Q",
+  "ParentRef": "Q-buPLdRoUarMVgK3VUZoQ/bcZ7fKegt0Sz3qMAvgil0A",
+  "Created": "2025-03-05T15:12:06.481555Z",
+  "Updated": "2025-03-05T15:12:06.481555Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

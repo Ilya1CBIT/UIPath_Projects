@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zHFcvJqg4Eenjx6APZw4lg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moex.com/ru/derivatives/currency-rate.aspx" CVScreenId="f4676506-aa65-4f1e-822a-200007e3c322" CvTextArea="396, 600, 75, 16" CvType="AnyWordGroup" DesignTimeRectangle="399, 598, 146, 20" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='ui-select-option__content' tag='DIV' type='' /&gt;" Guid="8290dce2-8809-4c9d-9adb-df2698c28806" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Валютная пара USD-RUB — курс сегодня на валютном рынке — Московская Биржа | Рынки' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f4676506-aa65-4f1e-822a-200007e3c322" CvTextArea="359, 475, 93, 18" CvTextArgument="03.02.2025" CvType="Text" DesignTimeRectangle="347, 457, 172, 55" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='keysParams' tag='LABEL' type='' class='em_text_red date_btn' aaname='' /&gt;" Guid="bde95600-7f5b-44bf-983b-22a23cd7b340" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="468419853ac0aa29bf24b9334ad2b6fe.png" xmlns="">0pRCZdhitl0u9o0xro4fEzg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

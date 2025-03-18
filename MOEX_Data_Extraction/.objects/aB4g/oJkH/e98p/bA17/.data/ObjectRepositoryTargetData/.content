@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3UT-56U8h0aFo6-ChuRWrw" Reference="Q-buPLdRoUarMVgK3VUZoQ/bA17ZKWCikKGeulbxZVQoQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moex.com/ru/derivatives/currency-rate.aspx" CVScreenId="241ad163-e686-4007-9462-cd1779b597a7" DesignTimeRectangle="1036, 564, 52, 40" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="[string.Format(&quot;&lt;webctrl aaname='{0}' tag='DIV' /&gt;&quot;, StartDay)]" Guid="617caf4f-c378-461c-b19f-765eff40c23a" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Валютная пара USD-RUB — курс сегодня на валютном рынке — Московская Биржа | Рынки' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8b0310aa6699ba14bc5a69c13f8536d5.png" xmlns="">0PGLkIbypnkij_kcoQrnoVw</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="5" Name="StartDay" />
+    </scg:List>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

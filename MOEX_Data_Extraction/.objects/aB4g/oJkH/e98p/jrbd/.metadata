@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Срочный рынок",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "jrbd_h0hdkiRwWPFIPnG1A",
+  "Reference": "Q-buPLdRoUarMVgK3VUZoQ/jrbd_h0hdkiRwWPFIPnG1A",
+  "ParentRef": "Q-buPLdRoUarMVgK3VUZoQ/e98pL-VwSUyNxn2jrK4x6Q",
+  "Created": "2025-03-03T15:25:33.4667181Z",
+  "Updated": "2025-03-03T15:25:33.4667181Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

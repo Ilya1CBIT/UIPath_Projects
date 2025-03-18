@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YMsWuj3yPU6kFNBeAThV2Q" Reference="Q-buPLdRoUarMVgK3VUZoQ/ewFla32HFEqHN6YyztRUzQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moex.com/ru/derivatives/currency-rate.aspx" CVScreenId="f9d18b39-de41-404b-aff8-e139fffc2d30" CvTextArea="785, 557, 44, 11" CvTextArgument="05 - Mal" CvType="Text" DesignTimeRectangle="787, 455, 117, 16" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Month1' class='ui-select-option__content' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='05 - Май' class='ui-select-option__content' tag='DIV' type='' check:innerText='05 - Май' /&gt;" Guid="f46a935a-95ba-4b13-8eef-fde67d4ca5d8" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Валютная пара USD-RUB — курс сегодня на валютном рынке — Московская Биржа | Рынки' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="-6" Y="-2" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="a3d98ac4d84e95a2fc2d4a3dab698c79.png" xmlns="">0FYRC0MuQDUO7eJMpO5_YIg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

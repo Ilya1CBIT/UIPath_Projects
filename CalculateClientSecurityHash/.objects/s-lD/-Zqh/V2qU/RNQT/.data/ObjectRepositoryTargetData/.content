@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Nyi5nTInEkuzG4N_q5Fy3A" Reference="RvxVhqjuU0mOR8X0Dz6b5g/RNQTuxjgdE-DClD5ej6nxQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items/105284362" CVScreenId="c0036e71-7d12-4fa2-9c5e-01db9b0ac0ac" CvElementArea="900, 569, 161, 37" CvTextArea="933, 580, 113, 16" CvTextArgument="Update Work Item" CvType="Button" DesignTimeRectangle="902, 569, 157, 34" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname=' Update Work Item' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Update Work Item' tag='BUTTON' type='button' class='btn btn-default' check:innerText='Update Work Item' /&gt;" Guid="007476dc-bc5b-4dab-9e01-335376f420fd" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fa89a7fe0fa135f99d1830b7bac4ad62.png" xmlns="">0XFFl0iCY6EmFPJJ6sc73NA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

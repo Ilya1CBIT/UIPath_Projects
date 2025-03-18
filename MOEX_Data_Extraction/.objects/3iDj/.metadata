@@ -1,0 +1,12 @@
+﻿{
+  "Name": "{Currency} - Excel",
+  "Type": "App",
+  "Id": "3iDjL5H22kuKqJTWW63BMQ",
+  "Reference": "Q-buPLdRoUarMVgK3VUZoQ/3iDjL5H22kuKqJTWW63BMQ",
+  "Created": "2025-03-06T11:06:09.1111522Z",
+  "Updated": "2025-03-06T11:06:09.1111522Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

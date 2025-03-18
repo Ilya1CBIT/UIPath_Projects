@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JYiBJ-dre0yMvPzEL_H_dA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moex.com/ru/derivatives/currency-rate.aspx" CVScreenId="ba9e6ee8-14e1-41fb-9fe5-ff7e00bc2244" CvElementArea="581, 518, 754, 48" CvType="InputBox" DesignTimeRectangle="584, 528, 725, 25" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='ui-select__placeholder' parentid='app' tag='DIV' type='' aaname='USD/RUB - Доллар США к российскому рублю' check:innerText='USD/RUB - Доллар США к российскому рублю' /&gt;" Guid="13f46f9d-9efe-4240-8e01-f228f7ba272f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Валютная пара USD-RUB — курс сегодня на валютном рынке — Московская Биржа | Рынки' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ba9e6ee8-14e1-41fb-9fe5-ff7e00bc2244" CvTextArea="584, 500, 122, 16" CvTextArgument="Bbi6ephTe BanhOTbI:" CvType="Text" DesignTimeRectangle="584, 488, 750, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='app' tag='LABEL' type='' class='ui-select__label' aaname=' Выберите валюты: ' check:innerText='Выберите валюты:' /&gt;" Guid="de99b546-23bc-44e3-aa0f-a97196ef6b89" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b7ce4492da4efb6684d8aa7b3a748bec.png" xmlns="">0djpXCuwPVk2ajANSo_OSMg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

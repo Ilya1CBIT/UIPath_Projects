@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BxIFMSa_A0aiES5SIdCNTg" Reference="Q-buPLdRoUarMVgK3VUZoQ/jrbd_h0hdkiRwWPFIPnG1A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moex.com" CVScreenId="dc651c6f-1f20-414e-ba88-5879a57843d5" CvTextArea="453, 320, 125, 17" CvTextArgument="Cpo4HbIŇ pblHOK" CvType="Text" DesignTimeRectangle="442, 305, 147, 48" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Срочный рынок' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Срочный рынок' tag='A' type='' class='header-menu-item header-menu-item--medium header-menu-item--gray header-menu-item--has-padding' check:innerText='Срочный рынок' /&gt;" Guid="304147dd-1f0d-48a8-84b6-a4e044c678b0" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Московская Биржа' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dc651c6f-1f20-414e-ba88-5879a57843d5" CvTextArea="206, 261, 87, 17" CvTextArgument="MOEX MOCKOBCKAA SMPXA" CvType="Text" DesignTimeRectangle="203, 246, 116, 36" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl tag='IMG' type='' class='' aaname='Московская биржа — крупнейший российский биржевой холдинг' /&gt;" Guid="52105bb1-5942-4377-a9aa-3470488e88d2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="785e0bfccc480229c8e5a67ae2f9a78f.png" xmlns="">0YpgIz164jkWCaUtPxH74hg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "{Currency} - Excel",
+  "Type": "Screen",
+  "Id": "z0xoGoesXkmqbdSZz_TLKQ",
+  "Reference": "Q-buPLdRoUarMVgK3VUZoQ/z0xoGoesXkmqbdSZz_TLKQ",
+  "ParentRef": "Q-buPLdRoUarMVgK3VUZoQ/VD4Q2PYo8EOlx-71LWn98w",
+  "Created": "2025-03-06T11:06:09.1402385Z",
+  "Updated": "2025-03-06T11:06:09.1402385Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

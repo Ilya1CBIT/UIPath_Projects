@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ADBcGMipmkqhGdpdYnAHDg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="emn178.github.io/online-tools/sha1.html" CVScreenId="10194cbb-113e-4572-86ef-5eccdd7928a5" CvElementArea="281, 260, 357, 38" CvTextArea="441, 271, 37, 15" CvTextArgument="Hash" CvType="Button" DesignTimeRectangle="284, 262, 352, 34" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='execute' tag='A' type='' class='btn' aaname='Hash' check:innerText='Hash' /&gt;" Guid="97844a5e-72d0-4cbe-9a37-459ed70ba9bf" ScopeSelectorArgument="&lt;html app='msedge.exe' title='SHA1 - Online Tools' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="10194cbb-113e-4572-86ef-5eccdd7928a5" CvTextArea="283, 219, 51, 16" CvTextArgument="Settings" CvType="Text" DesignTimeRectangle="268, 207, 384, 39" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Settings' class='block-title' parentid='content' tag='DIV' type='' check:innerText='Settings' /&gt;" Guid="378f0bb2-a28b-47a6-9137-bd58f7d07b51" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c73263b13fc51780e1b3cc63e2b0d578.png" xmlns="">025tDmYEKkEGnyBfSirBLBg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

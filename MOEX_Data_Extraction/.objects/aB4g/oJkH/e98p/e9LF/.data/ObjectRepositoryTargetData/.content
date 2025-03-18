@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eFOpHccNDEKuT2dtianeiA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moex.com" CVScreenId="6d92aff8-f904-4ad8-a772-45dfd2a3f1a9" CvTextArea="211, 400, 155, 21" CvTextArgument="Cpo4HbIŇ pbIHOK" CvType="Text" DesignTimeRectangle="213, 380, 168, 60" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Срочный рынок' tag='A' type='' class='header-menu-item header-menu-item--medium header-menu-item--gray header-menu-item--has-padding' check:innerText='Срочный рынок' /&gt;" Guid="76064937-2474-4026-a9f7-6cced5cc33b1" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Московская Биржа' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6d92aff8-f904-4ad8-a772-45dfd2a3f1a9" CvTextArea="216, 325, 142, 22" CvTextArgument="MOEX GMPKA MOCKOBCKAR" CvType="Text" DesignTimeRectangle="213, 306, 145, 45" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl tag='IMG' type='' class='' aaname='Московская биржа — крупнейший российский биржевой холдинг' /&gt;" Guid="70101436-6de8-49de-868d-5d7d4b793e31" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="6d92aff8-f904-4ad8-a772-45dfd2a3f1a9" CvTextArea="392, 400, 174, 21" CvTextArgument=".ehexHbIŇ pblHOK" CvType="Text" DesignTimeRectangle="381, 380, 200, 60" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Денежный рынок' tag='A' type='' class='header-menu-item header-menu-item--medium header-menu-item--gray header-menu-item--has-padding' check:innerText='Денежный рынок' /&gt;" Guid="19f7c46c-478a-4d1d-b3a5-f41816b6e291" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="21da4e83dd356bd04c3928b970a97c65.png" xmlns="">0JnwOuEqCuUedA_qcXKEYAg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

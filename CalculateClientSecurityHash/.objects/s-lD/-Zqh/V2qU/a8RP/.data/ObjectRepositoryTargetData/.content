@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iiKVl-8Zh0675KOvCZGn1g" Reference="RvxVhqjuU0mOR8X0Dz6b5g/a8RP1hhDOUKkTNinJyMoGA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com" CVScreenId="c4486f1f-5d43-4df2-854d-6fffab70bb34" CvElementArea="458, 497, 205, 50" CvTextArea="526, 513, 93, 16" CvTextArgument="Work Items" CvType="Button" DesignTimeRectangle="461, 499, 200, 46" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='                          Work Items' parentid='dashmenu' tag='BUTTON' innertext='                          Work Items' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                          Work Items' parentid='dashmenu' tag='BUTTON' innertext='                          Work Items' type='button' class='btn btn-default btn-lg' check:text='Work Items' /&gt;" Guid="26cfc8d6-006a-4ee0-b846-8eeb03228154" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d440bf9ca47ad5d3a3429e06fdd10a6d.png" xmlns="">0blHrxh9CUkKWGIp2cDLNNA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

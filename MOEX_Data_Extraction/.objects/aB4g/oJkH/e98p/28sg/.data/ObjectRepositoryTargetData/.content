@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0Fq-vnjQhkOatwC9kKSvZw" Reference="Q-buPLdRoUarMVgK3VUZoQ/28sgUXZH_02dVPIQSqx0Sg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moex.com/ru/derivatives" CVScreenId="5dc5a322-097f-4ed8-9cc7-520766381c45" CvElementArea="198, 530, 282, 45" CvType="Button" DesignTimeRectangle="206, 543, 271, 18" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Индикативные курсы' tag='A' type='' class='' check:innerText='Индикативные курсы' /&gt;" Guid="a8e80ba0-5ddf-4250-a7e6-ec88f0906732" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Срочный рынок — Московская Биржа | Рынки' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="201, 475, 276, 55" FuzzySelectorArgument="&lt;webctrl type='' class='left-menu__link ' tag='DIV' aaname='' check:innerText='Ключевые информационные документы' /&gt;" Guid="f89acb25-4394-42e3-990f-c469a8ba5d54" SearchSteps="FuzzySelector" />
+          <Target CVScreenId="5dc5a322-097f-4ed8-9cc7-520766381c45" CvElementArea="199, 574, 281, 45" CvTextArea="234, 588, 77, 16" CvTextArgument="NokyMeHTbI" CvType="Button" DesignTimeRectangle="201, 575, 276, 44" FuzzySelectorArgument="&lt;webctrl type='' class='left-menu__link ' tag='DIV' aaname='' check:innerText='Документы' /&gt;" Guid="90e886fe-d3eb-4fcb-bba4-1d6539423fe6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cee9504497968306285e0fd84b92fc82.png" xmlns="">0SSL9sV1Sj0SCyXQB1jjsUA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

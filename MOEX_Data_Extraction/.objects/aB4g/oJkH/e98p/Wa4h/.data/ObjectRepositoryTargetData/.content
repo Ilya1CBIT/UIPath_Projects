@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aJ0cNgy-xEq7FyH7TNb7SA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moex.com/ru/derivatives/currency-rate.aspx" CVScreenId="f19a0309-c78b-4be7-a460-b8ed5ce1694d" CvTextArea="785, 597, 60, 13" CvTextArgument="01 - 9wsapb" CvType="Text" DesignTimeRectangle="785, 597, 60, 13" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="[string.Format(&quot;&lt;webctrl aaname='{0}' class='ui-select-option__content' tag='DIV' type='' check:text='CAD/RUB - Канадский доллар к российскому рублю' /&gt;&quot;, date1)]" Guid="cb438daf-133d-4f40-805b-bf28b6d48ca7" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Валютная пара USD-RUB — курс сегодня на валютном рынке — Московская Биржа | Рынки' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f6be6c4fca5126e47f0f6cf58966eef6.png" xmlns="">0HoqvEIrPfkSoTuTaQd3-Rw</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="date1" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7npJfJ3YHE2HhXefH8GbOA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moex.com/ru/derivatives/currency-rate.aspx" CVScreenId="569cfdf4-9ad4-4c23-8149-88e314a41b2b" CvElementArea="931, 437, 134, 56" CvType="InputBox" DesignTimeRectangle="933, 439, 131, 52" DesignTimeScaleFactor="1.25" FuzzySelectorArgument="&lt;webctrl type='' class='ui-select__activator -selected' tag='DIV' aaname='' /&gt;" Guid="a1045849-e8c1-4af4-a642-866159bc9287" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Валютная пара USD-RUB — курс сегодня на валютном рынке — Московская Биржа | Рынки' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="569cfdf4-9ad4-4c23-8149-88e314a41b2b" CvTextArea="732, 542, 342, 16" CvTextArgument="NH BT CP 4T NT C6 BC" CvType="Text" DesignTimeRectangle="706, 533, 397, 45" FuzzySelectorArgument="&lt;webctrl type='' class='' tag='DIV' aaname='' check:innerText='ПНВТСРЧТПТСБВС' /&gt;" Guid="875dca6a-cee1-4b12-bfcb-47b10771e8b4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1bbc518ff85acca7f6e59d1dc0fa0ee8.png" xmlns="">0cj5W9IqG1kmHo_6orlXAwA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

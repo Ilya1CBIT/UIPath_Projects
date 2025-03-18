@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZYYIc5tDDUKDDdeY7HCFBw" Reference="Q-buPLdRoUarMVgK3VUZoQ/dyPwKiSY606NW33nRPJK0w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moex.com/ru/derivatives/currency-rate.aspx" CVScreenId="3cca0c66-ad72-44d8-9969-bf14a3dd4359" CvElementArea="930, 474, 202, 57" CvType="InputBox" DesignTimeRectangle="934, 477, 197, 52" DesignTimeScaleFactor="1.25" FuzzySelectorArgument="&lt;webctrl type='' class='ui-select__activator -selected' tag='DIV' aaname='' /&gt;" Guid="37037665-fd50-4774-b6b3-ac8639602b6d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Валютная пара USD-RUB — курс сегодня на валютном рынке — Московская Биржа | Рынки' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3cca0c66-ad72-44d8-9969-bf14a3dd4359" CvTextArea="940, 580, 342, 16" CvTextArgument="NH BT CP 4T NT C6 BC" CvType="Text" DesignTimeRectangle="914, 571, 397, 45" FuzzySelectorArgument="&lt;webctrl type='' class='' tag='DIV' aaname='' check:innerText='ПНВТСРЧТПТСБВС' /&gt;" Guid="bfb80332-eb8c-4df6-a485-d0e55806c322" SearchSteps="FuzzySelector, CV" />
+          <Target DesignTimeRectangle="897, 406, 173, 55" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='keysParams' type='' tag='LABEL' class='em_text_red date_btn' aaname='' /&gt;" Guid="5bad5ff9-b7a1-4c2d-aa6e-b5620305491d" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d223b22d0819c032685ef4f36571a4d1.png" xmlns="">0LJpMr3gW-Uy9dmLLY3iazQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MS2yzZdoGkCZYL7-7DSxFw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="emn178.github.io/online-tools/sha1.html" CVScreenId="5f6562fe-74ab-4424-87d2-8ee757f28aed" CvElementArea="652, 657, 1270, 337" CvType="InputBox" DesignTimeRectangle="652, 661, 1272, 336" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='output' tag='TEXTAREA' type='' class='container' placeholder='Output here...' aaname='' /&gt;" Guid="d7350539-3ff2-42ae-ac48-625214f2bf9a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='SHA1 - Online Tools' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="652, 622, 1272, 39" FuzzySelectorArgument="&lt;webctrl aaname='Output' class='block-title' parentid='content' tag='DIV' type='' check:innerText='Output' /&gt;" Guid="7de71d5a-daf4-4620-9c29-38bb5720bdc6" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e77a4864f47ad996d4ed3471b15c9232.png" xmlns="">0yLcVFZXeqEKMoWaj8Rd0Zg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

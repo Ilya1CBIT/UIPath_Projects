@@ -1,0 +1,13 @@
+﻿{
+  "Name": "05 - Май2025",
+  "Type": "Element",
+  "Id": "dyPwKiSY606NW33nRPJK0w",
+  "Reference": "Q-buPLdRoUarMVgK3VUZoQ/dyPwKiSY606NW33nRPJK0w",
+  "ParentRef": "Q-buPLdRoUarMVgK3VUZoQ/e98pL-VwSUyNxn2jrK4x6Q",
+  "Created": "2025-03-03T15:58:51.3308576Z",
+  "Updated": "2025-03-03T15:58:51.3308576Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

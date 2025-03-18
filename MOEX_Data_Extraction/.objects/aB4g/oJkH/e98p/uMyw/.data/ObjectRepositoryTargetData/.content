@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9hVcQECEYEG9xoJFFPU97w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moex.com" CVScreenId="807783ed-6a2f-46d5-966e-74cc88aaf7a9" CvElementArea="1695, 219, 31, 27" CvType="Icon" DesignTimeRectangle="1699, 221, 24, 24" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;header&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;svg' id='menu-line' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' id='menu-line' tag='svg' class='stroke-icon hoverable' aaname='' /&gt;" Guid="52d741e4-9305-495c-8603-d5cb9f5ee546" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABKSURBVEhLY/j85dt/euJRC6mORy2kOsaw0NHF87+wmAxVMMgsdPMH3kJa41ELqY4HPtGMplJK8Qi0cDSVUopHLaQ6HrWQyvjbfwCCxaGDPxxQNgAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Московская Биржа' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="10f7f606cbc6a7eee4d0e31157193ca7.png" xmlns="">0RuuStbMlekeSJMVpwm7sCQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

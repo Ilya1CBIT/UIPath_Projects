@@ -1,0 +1,14 @@
+﻿{
+  "Name": "CADRUB - Канадский дол…(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "i-nX_IJekkOuHjwhuaq_Nw",
+  "Reference": "Q-buPLdRoUarMVgK3VUZoQ/i-nX_IJekkOuHjwhuaq_Nw",
+  "ParentRef": "Q-buPLdRoUarMVgK3VUZoQ/e98pL-VwSUyNxn2jrK4x6Q",
+  "Created": "2025-03-04T08:01:09.6691679Z",
+  "Updated": "2025-03-04T08:01:09.6691679Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

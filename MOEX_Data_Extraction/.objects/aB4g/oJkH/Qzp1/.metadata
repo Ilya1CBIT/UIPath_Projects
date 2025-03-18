@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Валютная пара USD-RUB — курс сегодня на (2)",
+  "Type": "Screen",
+  "Id": "Qzp1s4elqU-Xt4gwsOKHDw",
+  "Reference": "Q-buPLdRoUarMVgK3VUZoQ/Qzp1s4elqU-Xt4gwsOKHDw",
+  "ParentRef": "Q-buPLdRoUarMVgK3VUZoQ/oJkHzEXfUkSlQzyoYH20hQ",
+  "Created": "2025-03-11T15:12:42.5815377Z",
+  "Updated": "2025-03-11T15:12:42.5815377Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

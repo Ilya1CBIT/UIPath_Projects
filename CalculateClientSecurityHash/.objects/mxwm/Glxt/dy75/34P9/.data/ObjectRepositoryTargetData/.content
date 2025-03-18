@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zvwkXqvCtUybFNq8knZ1Mw" Reference="RvxVhqjuU0mOR8X0Dz6b5g/34P98uUv5kK7FSvu7NVpsA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items/update/105284362" DesignTimeRectangle="434, 137, 64, 32" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Сообщение с acme-test.uipath.com:' role='dialog' /&gt;&lt;ctrl name='ОК' role='push button' automationid='' check:fulltext='ОК' /&gt;" Guid="be47d5cf-1f1c-4654-9586-78a9662ec14e" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 — Профиль 1: Microsoft​ Edge' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="41f2cd5f-70a4-450a-952b-e5bbaba1c288" CvTextArea="81, 106, 226, 13" CvTextArgument="Please fill in the complete update form!" CvType="Text" DesignTimeRectangle="82, 103, 416, 18" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Сообщение с acme-test.uipath.com:' role='dialog' /&gt;&lt;ctrl name='Please fill in the complete update form!' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Сообщение с acme-test.uipath.com:' role='dialog' /&gt;&lt;ctrl name='Please fill in the complete update form!' role='text' automationid='' check:fulltext='Please fill in the complete update form!' /&gt;" Guid="a501de5e-6c78-439b-8b60-b0dcf517dd64" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6c2786e2bd0f709a00f8bcc91e4c491f.png" xmlns="">0E8XhB7njt0COwT-9CYI2CA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

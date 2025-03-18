@@ -1,0 +1,13 @@
+﻿{
+  "Name": "USDTRY - Доллар США к …",
+  "Type": "Element",
+  "Id": "rClFVb3guUqjD2Ou4wHyQA",
+  "Reference": "Q-buPLdRoUarMVgK3VUZoQ/rClFVb3guUqjD2Ou4wHyQA",
+  "ParentRef": "Q-buPLdRoUarMVgK3VUZoQ/e98pL-VwSUyNxn2jrK4x6Q",
+  "Created": "2025-03-03T15:41:25.7273869Z",
+  "Updated": "2025-03-03T15:41:25.7273869Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

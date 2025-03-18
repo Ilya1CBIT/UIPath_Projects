@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="E479zv7fsE6LAc2ZWAmI5w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moex.com/ru/derivatives/currency-rate.aspx" CVScreenId="23363ed6-9838-4265-b753-77537b189546" CvTextArea="785, 697, 60, 13" CvTextArgument="01 - Aweapb" CvType="Text" DesignTimeRectangle="787, 695, 117, 16" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='01 - Январь' class='ui-select-option__content' tag='DIV' type='' check:innerText='01 - Январь' /&gt;" Guid="66218bcd-01ff-4023-8947-eefb1d2edb00" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Валютная пара USD-RUB — курс сегодня на валютном рынке — Московская Биржа | Рынки' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="80291941ee43799ca60abbf50693e05c.png" xmlns="">0YICx8LjzjEqkVYjMlrpUnQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Highlight</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

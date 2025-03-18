@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VvImEDeXJk2KN65ZrFPg1A" Reference="RvxVhqjuU0mOR8X0Dz6b5g/v-Lo4LPvOUuVluQHoje7vg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="emn178.github.io/online-tools/sha1.html" CVScreenId="5a393b7f-b564-44bb-89c0-067623862206" CvElementArea="1848, 628, 23, 26" CvType="Icon" DesignTimeRectangle="1848, 630, 22, 22" DesignTimeScaleFactor="1" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl aaname='Copy' parentid='content' tag='IMG' type='' class='' /&gt;" Guid="359dce28-3616-4d2c-9e82-a1641e2b8b07" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEFSURBVEhL7ZVrCwFBFIb9/99ACi3KLbknyjW7LDa3+EBoI0ls7h8OsxbbzMRuuRR76vkwdeZ9aurMMe0PR/gEfywqsHVI5zgVZSqVept6X5NIaPXAbPdDOJF9Cuobi1MiQ5Oo1uiCzR0CLYVEw/GEyPi+iBc6wFabMpFkHqxMEPjz++MMRqKiuJQuEcs3wOIIgMsXl3F6Y8B4orezGhS83e4UjU5RvlQDXyilXH1cKFiS1srJEBkiQ3RFrwgNtHqAxcmMyHyJKHfuv35X7W6fyEO8RDRfrIgMnO+Kipwgf6K0xYaDRIulRGTgUEXSegOZIk9d1RfuKx1tX1oGDlX0Dn5NdIQT01cCalnYnJYAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='msedge.exe' title='SHA1 - Online Tools' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5a393b7f-b564-44bb-89c0-067623862206" CvElementArea="1879, 627, 30, 29" CvTextArea="1893, 628, 11, 12" CvType="Icon" DesignTimeRectangle="1882, 630, 22, 22" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl class='fullscreen-icon' type='' parentid='content' tag='IMG' aaname='Full Screen' /&gt;" Guid="54953028-8718-4020-bae3-9fec84b92051" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD4SURBVEhL7dU9C4JAGMDxvv9nqKmiFysrI5TexaEyaHJoSBwSKYKIpmp46pEMLy868jEiGv7DnQc/Tu40dTyd4RP9oUiutwFF1ZnkVh8GhsmsI4EGxuye1OhAJleHQlVj1pG+OmM8h3RWhvIVI99RUIBYCxsUTU8GCiM4TgR6RDByiIc8623IW28hL7WFECzWjhDjzfMiOQwifR+02x+486IJQbbjQlXpxcJeQktn5R/h7mjCfS4aA+Elw8sWjKkQ7CkUIJ1hfAR7gGY+RI1gEajS7JIjGAOVZM1HEDPnFkxv4c8tvO6dIjvC71expoVS6aEk+zXoDBf3hypB8gqZPAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ef506a9f5eabc59279d5b7b845fd7496.png" xmlns="">0HizHtp5Zok2cXowjEIPb5A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

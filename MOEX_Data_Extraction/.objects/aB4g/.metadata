@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Новая вкладка",
+  "Type": "App",
+  "Id": "aB4gXpIlVEOOMeiQSKHwFg",
+  "Reference": "Q-buPLdRoUarMVgK3VUZoQ/aB4gXpIlVEOOMeiQSKHwFg",
+  "Created": "2025-03-03T15:21:07.6830406Z",
+  "Updated": "2025-03-03T15:21:07.6830406Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

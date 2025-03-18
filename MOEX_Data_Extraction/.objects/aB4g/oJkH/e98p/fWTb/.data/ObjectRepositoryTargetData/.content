@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="81AiwO3-cUSpks8mZDQfUg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moex.com/ru/derivatives/currency-rate.aspx" CVScreenId="898a7fd8-b3a2-4988-a226-288ce7627064" CvElementArea="1093, 278, 154, 59" CvTextArea="1112, 299, 110, 18" CvTextArgument="NOKA3ATb" CvType="Button" DesignTimeRectangle="1095, 280, 149, 55" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='dateTimeRowButton ui-button -primary -normal' aaname=' Показать ' check:innerText='ПОКАЗАТЬ' /&gt;" Guid="2cbe7279-797b-4bcc-98e6-ed94b0e58774" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Валютная пара USD-RUB — курс сегодня на валютном рынке — Московская Биржа | Рынки' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="898a7fd8-b3a2-4988-a226-288ce7627064" CvElementArea="1093, 278, 154, 59" CvTextArea="1112, 299, 110, 18" CvTextArgument="NOKA3ATb" CvType="Button" DesignTimeRectangle="1116, 295, 107, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='ui-button__label' parentid='app' tag='SPAN' type='' aaname=' Показать ' check:innerText='ПОКАЗАТЬ' /&gt;" Guid="7ecf033f-9f5f-47a2-86ef-bf9914d13326" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6835f739c92e43074a2e7fa08d8ade71.png" xmlns="">0L4F0np6eiEKs_fzP9n-7WA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

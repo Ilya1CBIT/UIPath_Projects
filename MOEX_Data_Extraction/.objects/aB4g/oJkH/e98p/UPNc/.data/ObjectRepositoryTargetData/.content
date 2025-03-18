@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZhDZV9Dp80utntEuK4h0ZQ" Reference="Q-buPLdRoUarMVgK3VUZoQ/UPNc8wma20G7n8c-PslVfw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moex.com/ru/derivatives/currency-rate.aspx" CVScreenId="f13c59cc-1660-41ef-8118-3cab11f34746" DesignTimeRectangle="1157, 474, 81, 20" DesignTimeScaleFactor="1.25" FuzzySelectorArgument="[string.Format(&quot;&lt;webctrl class='ui-select-option' type='' tag='DIV' aaname='{0}' check:innerText='{0}' /&gt;&quot;, EndYear)]" Guid="b12469e0-13b0-4775-aaa7-c2b242f0f16e" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Валютная пара USD-RUB — курс сегодня на валютном рынке — Московская Биржа | Рынки' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1909eb6f986409eec24bb4cfe9c6431a.png" xmlns="">0eE5Yp_NcIEyn2eAJQipSew</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="2024" Name="EndYear" />
+    </scg:List>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

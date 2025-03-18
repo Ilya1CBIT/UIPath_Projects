@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JqmkjXrKaUSG-bzqeiQ5EA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items/105284362" DesignTimeRectangle="223, 460, 374, 61" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;ctrl name='ACME System 1 - Work Items' role='document' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" Guid="d43128f2-4ba7-488a-8b27-6226ba9f6235" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Work Items — Профиль 1: Microsoft​ Edge' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5f2e7e29-a023-41d8-bc2d-3bd46e5b74fd" CvTextArea="222, 431, 203, 16" CvTextArgument="Client Information Details" CvType="Text" DesignTimeRectangle="223, 430, 374, 21" FullSelectorArgument="&lt;ctrl name='ACME System 1 - Work Items' role='document' /&gt;&lt;ctrl name='Client Information Details' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ACME System 1 - Work Items' role='document' /&gt;&lt;ctrl name='Client Information Details' role='grouping' automationid='' check:text='Client Information Details' /&gt;" Guid="5cbde294-17b1-4ded-85dc-42797e289758" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cf9cf760f3f237db883d3a4aabd10395.png" xmlns="">0YPfvzIRm10GFP0WaKZBqpw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

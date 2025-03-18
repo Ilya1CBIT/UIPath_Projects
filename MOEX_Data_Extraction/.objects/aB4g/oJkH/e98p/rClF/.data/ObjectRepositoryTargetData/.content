@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eTs-4ughiUe-8aVhTP_hCA" Reference="Q-buPLdRoUarMVgK3VUZoQ/rClFVb3guUqjD2Ou4wHyQA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="moex.com/ru/derivatives/currency-rate.aspx" CVScreenId="78c9d1fe-49c0-46ab-961f-e0e3ab11b842" CvTextArea="672, 492, 320, 17" CvTextArgument="USD/RUB - ,onnap CWA K poccMňCKOMy py6nto" CvType="Text" DesignTimeRectangle="674, 490, 318, 19" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='USD/RUB - Доллар США к российскому рублю' parentid='NUwuxPuRbdTOiGfG' tag='A' type='' class='' check:innerText='USD/RUB - Доллар США к российскому рублю' /&gt;" Guid="942de351-32cc-4232-9af5-4d2affe64b27" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Валютная пара USD-RUB — курс сегодня на валютном рынке — Московская Биржа | Рынки' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="78c9d1fe-49c0-46ab-961f-e0e3ab11b842" CvTextArea="672, 533, 280, 17" CvTextArgument="USD/TRY - ,onnap CWA K TypeyKoŇ .wpe" CvType="Text" DesignTimeRectangle="674, 531, 278, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='USD/TRY - Доллар США к турецкой лире' parentid='NUwuxPuRbdTOiGfG' tag='A' type='' class='' check:innerText='USD/TRY - Доллар США к турецкой лире' /&gt;" Guid="8a5bf1f1-dadc-4eba-82ab-1ac7dc4d8fd4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="14e07ede05cd705c52da3d775627f2b9.png" xmlns="">0hHdTbbXBV0qgBI9rvUZSBA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
