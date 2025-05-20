@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YJ1ze814L06tx5Rewoh7Vw" Reference="MDpShJ6Cp02rhchQtMtNsw/cimISbUjeEWW84dZkob2VA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="54b9a0fb-86ca-4458-8ec6-ccc3b93729a9" ContentHash="qLQ5AyD2BEOzBeBPB6dcOg" CvTextArea="55, 11, 265, 18" CvTextArgument="No Haweň oprahw3aLMm M KOHTparehTy" CvType="Text" DesignTimeRectangle="2, 2, 393, 36" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;uia name='По нашей организации и контрагенту' role='элемент меню' /&gt;" FuzzySelectorArgument="&lt;uia name='По нашей организации и контрагенту' role='элемент меню' automationid='' check:fulltext='По нашей организации и контрагенту' /&gt;" Guid="6c2efa05-6db2-479c-b261-70dcd0f1072f" Reference="MDpShJ6Cp02rhchQtMtNsw/cimISbUjeEWW84dZkob2VA" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8CommandPanelPopup' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1" />
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4979feae9249a9dbd638553336caf63d.png" xmlns="">0feC9Kjzy30SNzlgPL6Pdyw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

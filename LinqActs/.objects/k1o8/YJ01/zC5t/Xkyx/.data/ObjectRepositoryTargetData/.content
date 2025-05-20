@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aHkHkANQf0mrIQNdO0ONug" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8f8b3cf6-c168-4b1a-974c-5523d08657dd" CvTextArea="226, 159, 203, 15" CvTextArgument="BBecTm XO3AñCTBeHHYHO onepaymo" CvType="Text" DesignTimeRectangle="207, 156, 223, 20" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia role='группа' /&gt;&lt;uia name='Операции' role='группа' /&gt;&lt;uia name='Ввести хозяйственную операцию' role='элемент меню' /&gt;" FuzzySelectorArgument="&lt;uia role='группа' /&gt;&lt;uia name='Операции' role='группа' /&gt;&lt;uia name='Ввести хозяйственную операцию' role='элемент меню' automationid='' check:fulltext='Ввести хозяйственную операцию' /&gt;" Guid="a48c3267-5827-41bd-bb70-9c747382cf4d" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8f8b3cf6-c168-4b1a-974c-5523d08657dd" CvTextArea="529, 289, 75, 13" CvTextArgument="Bce HOBOCTM" CvType="Text" DesignTimeRectangle="509, 286, 97, 20" FullSelectorArgument="&lt;uia idx='5' role='группа' /&gt;&lt;uia name='Информация' role='группа' /&gt;&lt;uia name='Все новости' role='элемент меню' /&gt;" FuzzySelectorArgument="&lt;uia role='группа' /&gt;&lt;uia name='Информация' role='группа' /&gt;&lt;uia name='Все новости' role='элемент меню' automationid='' check:fulltext='Все новости' /&gt;" Guid="ef311fe0-c29c-481f-829e-2f519c962d5c" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e681776f8999084bc647b81019d16abd.png" xmlns="">0vRTnyqeXREOqGHprfXDJ-Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NihtXNet-0qlUdjljs4HUw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="394, 385, 117, 34" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;uia name='По данным организации' role='вкладка' /&gt;&lt;uia role='панель инструментов' /&gt;&lt;uia name='Заполнить' role='кнопка' /&gt;" FuzzySelectorArgument="&lt;uia name='По данным организации' role='вкладка' /&gt;&lt;uia role='панель инструментов' /&gt;&lt;uia name='Заполнить' role='кнопка' automationid='' check:fulltext='Заполнить' /&gt;" Guid="ee283209-a1f9-4d3f-9e7a-e1bb1d16d35d" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="884d99c15191a4170881ca72b1596caf.png" xmlns="">0bxks9rb2EUqjiseSQBCtog</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

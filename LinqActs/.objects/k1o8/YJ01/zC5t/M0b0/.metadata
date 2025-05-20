@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Конверт",
+  "Type": "Element",
+  "Id": "M0b0AyCaD0yg81jF-m_1nw",
+  "Reference": "MDpShJ6Cp02rhchQtMtNsw/M0b0AyCaD0yg81jF-m_1nw",
+  "ParentRef": "MDpShJ6Cp02rhchQtMtNsw/zC5tFoPEqE6iJJpf7hjWbA",
+  "Created": "2025-05-20T12:32:18.2787852Z",
+  "Updated": "2025-05-20T12:32:18.2787852Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

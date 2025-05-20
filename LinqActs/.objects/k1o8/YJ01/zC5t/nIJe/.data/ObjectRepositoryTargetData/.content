@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TZALU24KcEKm21tKxuvk7g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8f8b3cf6-c168-4b1a-974c-5523d08657dd" CvElementArea="1115, 52, 241, 25" CvType="InputBox" DesignTimeRectangle="1116, 53, 240, 24" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='Поиск по функциям' role='поле' /&gt;" FuzzySelectorArgument="&lt;uia name='Поиск по функциям' role='поле' automationid='' /&gt;" Guid="87d31fcd-993f-49e8-8dbb-2d55e77258f9" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8f8b3cf6-c168-4b1a-974c-5523d08657dd" CvElementArea="1365, 54, 21, 22" CvType="Icon" DesignTimeRectangle="1368, 57, 16, 16" FullSelectorArgument="&lt;uia name='Настройки' role='кнопка' /&gt;" FuzzySelectorArgument="&lt;uia name='Настройки' role='кнопка' automationid='' check:fulltext='Настройки' /&gt;" Guid="e77ad5d2-c360-4d81-914d-3b91071aae65" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGlSURBVDhPvZRJigJBEEX7gh5ARRFEcCWuHEHduHW4gHoCT+HCCwhOG3eiiC5UENHfvOzMoqpa2h6kPxSUEZnPiJ+R9aYX63+By+VSkUgk8BD7Sk+BuVzO/pJ5/xFwv9+rXC5rMpnodrtpOBx+AhIjt1qt1Gw2tdvtbPZDAWC321Wj0VAqlVI6nVaxWDRwJ96JZbNZxeNxVSoVdTodm/2QB5zNZkomkzoejzqfzxqPxzYT1P1+12g00uFwMGvZs1gsbNYHpFVauFwuNiJdr1f1ej0lEgmzsd/vm5gTrbdaLVO1kwdcr9cGmMlkPF8AYMF2u9Vms1G9XjcxhN/5fF6FQuFxhU6xWMwsRlQFyIl3Yog10WjUWOBXAEiSRd8F8udheUDKpnzawHBEe7QJiKdWq2kwGJgctmAPNmGXkwfE2Ha7bYx24gCAUhVP+FA4QIClUslGfMD5fG42nU4nUyGjEfbHiZFitNzYTKdTmwl5yJBWq1UztAwvFjwabIae4WcCuAx+BYD4Qgtcq2dXDziz6w7QKQAM688fh7DY/NLP12/0YqD0DtN+mKhz7FuoAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8c670707b98e1bf03c63cd1487eab9fa.png" xmlns="">0CEJeI5ZHZE2yexbWN10zCg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

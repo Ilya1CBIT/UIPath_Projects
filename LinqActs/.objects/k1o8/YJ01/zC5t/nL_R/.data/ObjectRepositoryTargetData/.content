@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bzoLwkuD5kWFyjMNz5wHhA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="af166c20-38fd-4949-b8b2-e02fc536d3e7" CvTextArea="528, 202, 144, 16" CvTextArgument="AKTbI cBepKM pacueToB" CvType="Text" DesignTimeRectangle="509, 199, 164, 20" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='ПРОДАЖИ' role='группа' /&gt;&lt;uia role='группа' /&gt;&lt;uia name='Расчеты с контрагентами' role='группа' /&gt;&lt;uia name='Акты сверки расчетов' role='элемент меню' /&gt;" Guid="3d4da015-35b3-42fc-ba6e-4e692c3b3159" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' title='Бухгалтерия предприятия (учебная)*' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="52190c9dc200c201b26412510ffff24f.png" xmlns="">0upshWedXDkGNpUSgGafo5w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,670 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Interactions1C" this:Interactions1C.in_login="АбрамовГС (директор)" this:Interactions1C.in_DateStart="20.04.2004" this:Interactions1C.in_DateEnd="23.05.2004" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_login" Type="InArgument(x:String)" />
+    <x:Property Name="in_password" Type="InArgument(ss:SecureString)" />
+    <x:Property Name="in_INN" Type="InArgument(x:String)" />
+    <x:Property Name="in_DateStart" Type="InArgument(x:String)" />
+    <x:Property Name="in_DateEnd" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>Interactions1C_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Interactions1C" sap:VirtualizedContainerService.HintSize="1019.2,6144.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Бухгалтерия предприятия (учебная), редакция 3" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1019.2,1986.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="cbee8ab7-216f-4ef4-9546-b2d1d5e93630" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="985.6,1687.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState DisplayName="Check App State 'Бухгалтерия предприятия…'" sap:VirtualizedContainerService.HintSize="952,1625.6" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="cbee8ab7-216f-4ef4-9546-b2d1d5e93630" Version="V4">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,1304" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Бухгалтерия предприятия…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cbee8ab7-216f-4ef4-9546-b2d1d5e93630" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="8af8c648-a378-48b6-8530-088554c5ee0f" ContentHash="Zh8BSA_M5kGyeKYdRtAjQw" CvTextArea="23, 104, 253, 16" CvTextArgument="6yxranTepMA npeANpMATMA y4e6HaA (AeMo)" CvType="Text" DesignTimeRectangle="16, 97, 310, 29" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='Информационные базы' role='список' /&gt;&lt;uia name='Бухгалтерия предприятия учебная (демо)' role='элемент списка' /&gt;" FuzzySelectorArgument="&lt;uia name='Информационные базы' role='список' /&gt;&lt;uia name='Бухгалтерия предприятия учебная (демо)' role='элемент списка' automationid='' check:fulltext='Бухгалтерия предприятия учебная (демо)' /&gt;" Guid="2d5bd6f1-1ad0-4e11-9dfc-e689f0728db1" InformativeScreenshot="40f8d5d256bf3a21f9b88e5b01dee29a.png" Reference="MDpShJ6Cp02rhchQtMtNsw/mk7y6PLxM0SlD4Ztd0O8Aw" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameTaxiStarter' title='Запуск 1С:Предприятия (учебной версии)' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Запуск 1С:Предприятия (…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cbee8ab7-216f-4ef4-9546-b2d1d5e93630" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="8af8c648-a378-48b6-8530-088554c5ee0f" ContentHash="iwrWyEhkfk2CncfvU4R3rg" CvElementArea="342, 66, 142, 27" CvTextArea="376, 72, 98, 16" CvTextArgument="1C:Ape,ANpMaTMe" CvType="Button" DesignTimeRectangle="343, 67, 140, 25" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='1С:Предприятие' role='кнопка' /&gt;" FuzzySelectorArgument="&lt;uia name='1С:Предприятие' role='кнопка' automationid='' check:fulltext='1С:Предприятие' /&gt;" Guid="79ffbc37-c549-4090-8ad8-f86800042a1d" InformativeScreenshot="42f99270e1ca5d0fcbb45b2dcc4e9953.png" Reference="MDpShJ6Cp02rhchQtMtNsw/saFvbslSPU6WaRHoUrgZSw" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameTaxiStarter' title='Запуск 1С:Предприятия (учебной версии)' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="8af8c648-a378-48b6-8530-088554c5ee0f" CvTextArea="12, 12, 364, 21" CvTextArgument="3anycK 1C:ApegNpNATMA (y4e6HOň Bepcnn)" CvType="Text" DesignTimeRectangle="13, 1, 362, 40" FullSelectorArgument="&lt;uia role='панель инструментов' /&gt;&lt;uia name='Запуск 1С:Предприятия (учебной версии)' role='кнопка' /&gt;" FuzzySelectorArgument="&lt;uia role='панель инструментов' /&gt;&lt;uia name='Запуск 1С:Предприятия (учебной версии)' role='кнопка' automationid='' check:fulltext='Запуск 1С:Предприятия (учебной версии)' /&gt;" Guid="8361a1b4-11c4-4df7-bfad-76a0bf00df4f" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'АбрамовГС (директор)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="cbee8ab7-216f-4ef4-9546-b2d1d5e93630" Text="[in_login]" Version="V4">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable CVScreenId="b3da275e-0ba3-4b0f-9d2d-662f2f6220b7" ContentHash="KM0uk3zuJ0SimZ70gH1Mzw" CvElementArea="193, 94, 283, 25" CvType="InputBox" DesignTimeRectangle="194, 95, 281, 24" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='Пользователь' role='поле со списком' /&gt;" FuzzySelectorArgument="&lt;uia name='Пользователь' role='поле со списком' automationid='' /&gt;" Guid="3a9917d5-a077-4c26-9d5d-39d14cb91f21" InformativeScreenshot="87ba9c14a5221e4827383de620cdca14.png" Reference="MDpShJ6Cp02rhchQtMtNsw/11BJVHYzUEG_2B5rWOSSxw" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameTaxiStarter' title='1С:Предприятие' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="b3da275e-0ba3-4b0f-9d2d-662f2f6220b7" CvTextArea="97, 100, 87, 13" CvTextArgument="Non630BaTeN6:" CvType="Text" DesignTimeRectangle="98, 95, 91, 24" FullSelectorArgument="&lt;uia name='Пользователь:' role='текстовый' /&gt;" FuzzySelectorArgument="&lt;uia name='Пользователь:' role='текстовый' automationid='' check:fulltext='Пользователь:' /&gt;" Guid="1850d594-6477-4e0f-a3d6-bf219b515502" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Пароль'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="cbee8ab7-216f-4ef4-9546-b2d1d5e93630" SecureText="[in_password]" Version="V4">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable ContentHash="P_AcngkLBke-1MvMtUq7vA" DesignTimeRectangle="194, 127, 281, 24" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='Пароль' role='поле' /&gt;" FuzzySelectorArgument="&lt;uia name='Пароль' role='поле' automationid='' /&gt;" Guid="73fc4ef4-72ba-4241-a19e-5d5a1778fd89" InformativeScreenshot="07a96a899c60d394c93ebad7c89699c6.png" Reference="MDpShJ6Cp02rhchQtMtNsw/FKS6Dw3bs0SA0lnbbCuSfQ" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameTaxiStarter' title='1С:Предприятие' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="b3da275e-0ba3-4b0f-9d2d-662f2f6220b7" CvTextArea="97, 132, 48, 16" CvTextArgument="Naponb:" CvType="Text" DesignTimeRectangle="98, 127, 91, 24" FullSelectorArgument="&lt;uia name='Пароль:' role='текстовый' /&gt;" FuzzySelectorArgument="&lt;uia name='Пароль:' role='текстовый' automationid='' check:fulltext='Пароль:' /&gt;" Guid="03c02029-638b-47f2-8179-b484c305aaf3" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Войти'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cbee8ab7-216f-4ef4-9546-b2d1d5e93630" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="490985da-5f58-4c3b-ba90-23b8a0a67b5f" ContentHash="tLMJi3gRP0qPBYWdtf8LRA" CvElementArea="240, 206, 116, 35" CvTextArea="272, 215, 50, 15" CvTextArgument="BoNTM" CvType="Button" DesignTimeRectangle="242, 209, 112, 33" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;uia name='Войти' role='кнопка' /&gt;" FuzzySelectorArgument="&lt;uia name='Войти' role='кнопка' automationid='' check:fulltext='Войти' /&gt;" Guid="5304899d-7388-4e4d-87cf-9cd1cf74ce02" InformativeScreenshot="cc9583fbfb7dec7d734c81c6c96c7f9e.png" Reference="MDpShJ6Cp02rhchQtMtNsw/md88s42lYUq6ucmfvs_itg" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameTaxiStarter' title='1С:Предприятие' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,91.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="8af8c648-a378-48b6-8530-088554c5ee0f" ContentHash="Zh8BSA_M5kGyeKYdRtAjQw" CvTextArea="23, 104, 253, 16" CvTextArgument="6yxranTepMA npeANpMATMA y4e6HaA (AeMo)" CvType="Text" DesignTimeRectangle="16, 97, 310, 29" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='Информационные базы' role='список' /&gt;&lt;uia name='Бухгалтерия предприятия учебная (демо)' role='элемент списка' /&gt;" FuzzySelectorArgument="&lt;uia name='Информационные базы' role='список' /&gt;&lt;uia name='Бухгалтерия предприятия учебная (демо)' role='элемент списка' automationid='' check:fulltext='Бухгалтерия предприятия учебная (демо)' /&gt;" Guid="2d5bd6f1-1ad0-4e11-9dfc-e689f0728db1" InformativeScreenshot="40f8d5d256bf3a21f9b88e5b01dee29a.png" Reference="MDpShJ6Cp02rhchQtMtNsw/mk7y6PLxM0SlD4Ztd0O8Aw" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameTaxiStarter' title='Запуск 1С:Предприятия (учебной версии)' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="714, 321, 492, 391" ContentHash="HPPOusVX-EOYROy8KCOdPw" FilePath="C:\Program Files (x86)\1cv8t\8.3.18.1741\bin\1cv8ct.exe" IconBase64="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" InformativeScreenshot="3958c522c9951ab60ec5293fd79f968a.png" Reference="MDpShJ6Cp02rhchQtMtNsw/oGlH4K-HLESygik8fAuuow" Selector="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameTaxiStarter' title='Запуск 1С:Предприятия (учебной версии)' /&gt;" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Бухгалтерия предприятия (учебная), редакция 3(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1019.2,3969.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="Never" ScopeGuid="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="985.6,3670.4" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState DisplayName="Check App State 'Функции'" sap:VirtualizedContainerService.HintSize="952,84.8" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Version="V4">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,276" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Главное'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,216" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="1623d24c-73df-4f33-9b4e-dac5dca8e4f2" ContentHash="5oN5N6SSpEWiRq6P-4Mhlw" CvTextArea="46, 75, 49, 13" CvTextArgument="TNashoe" CvType="Text" DesignTimeRectangle="1, 64, 184, 36" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='Главное' role='элемент вкладки' /&gt;" FuzzySelectorArgument="&lt;uia name='Главное' role='элемент вкладки' automationid='' check:fulltext='Главное' /&gt;" Guid="b178eaa0-4fb5-4d58-b0b6-a5a070b777b7" InformativeScreenshot="4cb29328d5beaa72dc62557bf7e8de8f.png" Reference="MDpShJ6Cp02rhchQtMtNsw/_bq8KkrbFEij-9aQmO_VLQ" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="018861ca-fa82-43d5-8595-a2538290a013" ContentHash="FU6qrmacvEa4knELu4v6AQ" CvTextArea="90, 9, 508, 16" CvTextArgument="6yxranTepMA npeANpMATMA (y4e6HaA), peAaKLMA 3.0 1C:NpeANpMATMe, y4e6HaA BepCMA" CvType="Text" DesignTimeRectangle="83, 1, 650, 30" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;uia role='панель инструментов' /&gt;&lt;uia role='текстовый' automationid='' /&gt;" Guid="55f4bb5e-6ff2-4bdc-9a94-4eb90bd84127" InformativeScreenshot="a930ac0a3f083225a3961d04e00f7ec9.png" Reference="MDpShJ6Cp02rhchQtMtNsw/PMWjsemkTUeRU2d3tOQ-Og" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="49, 1, 30, 30" FullSelectorArgument="&lt;uia idx='5' role='панель инструментов' /&gt;&lt;uia name='Функции' role='кнопка' /&gt;" FuzzySelectorArgument="&lt;uia role='панель инструментов' /&gt;&lt;uia name='Функции' role='кнопка' automationid='' check:fulltext='Функции' /&gt;" Guid="a5469ec9-4ea1-42d4-a008-aab96fd3f1a2" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+            <uix:NCheckState DisplayName="Check App State 'Главная'" sap:VirtualizedContainerService.HintSize="952,631.2" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Version="V4">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,340.8" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Настройки'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,279.2" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Text="Акты сверки" Version="V4">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable CVScreenId="8f8b3cf6-c168-4b1a-974c-5523d08657dd" ContentHash="TZALU24KcEKm21tKxuvk7g" CvElementArea="1115, 52, 241, 25" CvType="InputBox" DesignTimeRectangle="1116, 53, 240, 24" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='Поиск по функциям' role='поле' /&gt;" FuzzySelectorArgument="&lt;uia name='Поиск по функциям' role='поле' automationid='' /&gt;" Guid="87d31fcd-993f-49e8-8dbb-2d55e77258f9" InformativeScreenshot="8c670707b98e1bf03c63cd1487eab9fa.png" Reference="MDpShJ6Cp02rhchQtMtNsw/nIJeNv4ZkUixqH1lXsn-OA" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="8f8b3cf6-c168-4b1a-974c-5523d08657dd" CvElementArea="1365, 54, 21, 22" CvType="Icon" DesignTimeRectangle="1368, 57, 16, 16" FullSelectorArgument="&lt;uia name='Настройки' role='кнопка' /&gt;" FuzzySelectorArgument="&lt;uia name='Настройки' role='кнопка' automationid='' check:fulltext='Настройки' /&gt;" Guid="e77ad5d2-c360-4d81-914d-3b91071aae65" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGlSURBVDhPvZRJigJBEEX7gh5ARRFEcCWuHEHduHW4gHoCT+HCCwhOG3eiiC5UENHfvOzMoqpa2h6kPxSUEZnPiJ+R9aYX63+By+VSkUgk8BD7Sk+BuVzO/pJ5/xFwv9+rXC5rMpnodrtpOBx+AhIjt1qt1Gw2tdvtbPZDAWC321Wj0VAqlVI6nVaxWDRwJ96JZbNZxeNxVSoVdTodm/2QB5zNZkomkzoejzqfzxqPxzYT1P1+12g00uFwMGvZs1gsbNYHpFVauFwuNiJdr1f1ej0lEgmzsd/vm5gTrbdaLVO1kwdcr9cGmMlkPF8AYMF2u9Vms1G9XjcxhN/5fF6FQuFxhU6xWMwsRlQFyIl3Yog10WjUWOBXAEiSRd8F8udheUDKpnzawHBEe7QJiKdWq2kwGJgctmAPNmGXkwfE2Ha7bYx24gCAUhVP+FA4QIClUslGfMD5fG42nU4nUyGjEfbHiZFitNzYTKdTmwl5yJBWq1UztAwvFjwabIae4WcCuAx+BYD4Qgtcq2dXDziz6w7QKQAM688fh7DY/NLP12/0YqD0DtN+mKhz7FuoAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,83.2" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="8f8b3cf6-c168-4b1a-974c-5523d08657dd" ContentHash="aHkHkANQf0mrIQNdO0ONug" CvTextArea="226, 159, 203, 15" CvTextArgument="BBecTm XO3AñCTBeHHYHO onepaymo" CvType="Text" DesignTimeRectangle="207, 156, 223, 20" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia role='группа' /&gt;&lt;uia name='Операции' role='группа' /&gt;&lt;uia name='Ввести хозяйственную операцию' role='элемент меню' /&gt;" FuzzySelectorArgument="&lt;uia role='группа' /&gt;&lt;uia name='Операции' role='группа' /&gt;&lt;uia name='Ввести хозяйственную операцию' role='элемент меню' automationid='' check:fulltext='Ввести хозяйственную операцию' /&gt;" Guid="a48c3267-5827-41bd-bb70-9c747382cf4d" InformativeScreenshot="e681776f8999084bc647b81019d16abd.png" Reference="MDpShJ6Cp02rhchQtMtNsw/XkyxLohy30mPgxh7OqIRPQ" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="8f8b3cf6-c168-4b1a-974c-5523d08657dd" CvTextArea="529, 289, 75, 13" CvTextArgument="Bce HOBOCTM" CvType="Text" DesignTimeRectangle="509, 286, 97, 20" FullSelectorArgument="&lt;uia idx='5' role='группа' /&gt;&lt;uia name='Информация' role='группа' /&gt;&lt;uia name='Все новости' role='элемент меню' /&gt;" FuzzySelectorArgument="&lt;uia role='группа' /&gt;&lt;uia name='Информация' role='группа' /&gt;&lt;uia name='Все новости' role='элемент меню' automationid='' check:fulltext='Все новости' /&gt;" Guid="ef311fe0-c29c-481f-829e-2f519c962d5c" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+            <uix:NCheckState DisplayName="Check App State 'Акты сверки расчетов'" sap:VirtualizedContainerService.HintSize="952,570.4" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Version="V4">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,280" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Акты сверки расчетов(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="af166c20-38fd-4949-b8b2-e02fc536d3e7" ContentHash="eZ1SnW3gHE-P3JxkdXK5zA" CvTextArea="528, 202, 144, 16" CvTextArgument="AKTbI cBepKM pacueToB" CvType="Text" DesignTimeRectangle="509, 199, 164, 20" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='ПРОДАЖИ' role='группа' /&gt;&lt;uia role='группа' /&gt;&lt;uia name='Расчеты с контрагентами' role='группа' /&gt;&lt;uia name='Акты сверки расчетов' role='элемент меню' /&gt;" Guid="e0d23892-88f0-420a-803d-a093fc96f606" InformativeScreenshot="c2a66ef4bfd04c5d7bc1039ec56f4733.png" Reference="MDpShJ6Cp02rhchQtMtNsw/JYMqbPRqb0SjwXQicUhf0g" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,91.2" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="af166c20-38fd-4949-b8b2-e02fc536d3e7" ContentHash="bzoLwkuD5kWFyjMNz5wHhA" CvTextArea="528, 202, 144, 16" CvTextArgument="AKTbI cBepKM pacueToB" CvType="Text" DesignTimeRectangle="509, 199, 164, 20" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='ПРОДАЖИ' role='группа' /&gt;&lt;uia role='группа' /&gt;&lt;uia name='Расчеты с контрагентами' role='группа' /&gt;&lt;uia name='Акты сверки расчетов' role='элемент меню' /&gt;" Guid="3d4da015-35b3-42fc-ba6e-4e692c3b3159" InformativeScreenshot="52190c9dc200c201b26412510ffff24f.png" Reference="MDpShJ6Cp02rhchQtMtNsw/nL_RZWryl0yL6hxmrrKltw" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' title='Бухгалтерия предприятия (учебная)*' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Акты сверки расчетов с …'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Text="[in_INN]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CVScreenId="e2616ce9-dedb-4c64-bb1c-e6786a569736" ContentHash="t42x54IMQUCFu9g9QTzC5Q" CvElementArea="298, 105, 1114, 27" CvType="InputBox" DesignTimeRectangle="299, 106, 1119, 25" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia role='поле со списком' /&gt;" FuzzySelectorArgument="&lt;uia role='поле со списком' automationid='' /&gt;" Guid="6444e367-cdfa-49f2-87bb-3a8512575b2e" InformativeScreenshot="ac69c65015fa39f7fb7daf436de64d15.png" Reference="MDpShJ6Cp02rhchQtMtNsw/UDz2HS3GMESjCAonelJo8g" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="e2616ce9-dedb-4c64-bb1c-e6786a569736" CvTextArea="314, 75, 343, 21" CvTextArgument="AKTbI cBepKM pac4eTOB C KOHTpareHTaMM" CvType="Text" DesignTimeRectangle="316, 68, 1016, 33" FullSelectorArgument="&lt;uia name='Акты сверки расчетов с контрагентами' role='панель' /&gt;" FuzzySelectorArgument="&lt;uia name='Акты сверки расчетов с контрагентами' role='панель' automationid='' check:fulltext='Акты сверки расчетов с контрагентами' /&gt;" Guid="b407837a-5cd9-4aec-831a-eec58adc39aa" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'Контрагент'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,189.6" sap2010:WorkflowViewState.IdRef="NCheck_1" ScopeIdentifier="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Version="V4">
+              <uix:NCheck.Target>
+                <uix:TargetAnchorable CVScreenId="e2616ce9-dedb-4c64-bb1c-e6786a569736" ContentHash="yaJx7n2yeU6i5DCEVxWuog" CvElementArea="272, 109, 18, 18" CvType="CheckBox" DesignTimeRectangle="272, 110, 17, 17" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='Контрагент:' role='флажок' /&gt;" FuzzySelectorArgument="&lt;uia name='Контрагент:' role='флажок' automationid='' check:fulltext='Контрагент:' /&gt;" Guid="69d847eb-644a-4cad-a81b-92f88f907018" InformativeScreenshot="b3f4f5346136009d0c5ffe9b5568c253.png" Reference="MDpShJ6Cp02rhchQtMtNsw/YQ8HvATIc065wqhCnwk4lQ" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+              </uix:NCheck.Target>
+            </uix:NCheck>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Контрагент'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,189.6" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="e2616ce9-dedb-4c64-bb1c-e6786a569736" ContentHash="ffnAnaWsEE-qvotp0acFoA" CvElementArea="196, 138, 80, 29" CvTextArea="211, 146, 50, 15" CvTextArgument="Co3,aTb" CvType="Button" DesignTimeRectangle="198, 140, 77, 27" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;uia role='панель инструментов' /&gt;&lt;uia name='Создать' role='кнопка' automationid='' check:fulltext='Создать' /&gt;" Guid="6e1a9006-31bf-4b2c-9cf9-cdc6a523a648" InformativeScreenshot="ef7d4c505e37f9ca0998ef53bffd6aee.png" Reference="MDpShJ6Cp02rhchQtMtNsw/HgLifMStCEapyHoJcaFBPg" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="e2616ce9-dedb-4c64-bb1c-e6786a569736" CvTextArea="197, 111, 69, 16" CvTextArgument="KohTpareHT:" CvType="Text" DesignTimeRectangle="198, 110, 69, 16" FullSelectorArgument="&lt;uia name='Контрагент:' role='текстовый' /&gt;" FuzzySelectorArgument="&lt;uia name='Контрагент:' role='текстовый' automationid='' check:fulltext='Контрагент:' /&gt;" Guid="87dcf625-320d-42e8-b3a6-6c0d9a29b53a" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Element 'Акт сверки расчетов с к…''" sap:VirtualizedContainerService.HintSize="952,591.2" sap2010:WorkflowViewState.IdRef="NCheckState_6" ScopeIdentifier="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Version="V4">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,340.8" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Период'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,279.2" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Text="[in_DateStart]" Version="V4">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable ContentHash="Y1i9OS3AKUSmJVSdR3WkVg" DesignTimeRectangle="287, 245, 122, 25" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='Период:' role='поле' /&gt;" FuzzySelectorArgument="&lt;uia name='Период:' role='поле' automationid='' check:text='.  .' /&gt;" Guid="12246f21-1de3-47fb-8541-2f2a464313c8" InformativeScreenshot="c7cc8aab5708aaa59e51030aafdc7aa7.png" Reference="MDpShJ6Cp02rhchQtMtNsw/Ew3ntqdUqUWZWyecvaQCcQ" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="0e4a3816-74f8-4e8c-96a4-b0ad4f5e2c61" CvTextArea="197, 250, 49, 16" CvTextArgument="Nepmop:" CvType="Text" DesignTimeRectangle="198, 249, 49, 16" FullSelectorArgument="&lt;uia name='Период:' role='текстовый' /&gt;" FuzzySelectorArgument="&lt;uia name='Период:' role='текстовый' automationid='' check:fulltext='Период:' /&gt;" Guid="5120179f-c3e4-4a44-a686-4eef464bc5b7" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,91.2" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="acd4772b-0f95-49cc-9314-c21b4685920f" ContentHash="auQwr2rF3E6ibp3G0FdPzQ" CvTextArea="314, 75, 419, 21" CvTextArgument="AKT cBepKM pac4eTOB C KOHTpareHTOM (co3gahne)" CvType="Text" DesignTimeRectangle="316, 68, 1046, 33" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='Акт сверки расчетов с контрагентом (создание)' role='панель' /&gt;" FuzzySelectorArgument="&lt;uia name='Акт сверки расчетов с контрагентом (создание)' role='панель' automationid='' check:fulltext='Акт сверки расчетов с контрагентом (создание)' /&gt;" Guid="ff6670cb-7960-4b4d-abdc-015891d4fe1b" InformativeScreenshot="cdd96a620ce67b5d4bb7baafee82e602.png" Reference="MDpShJ6Cp02rhchQtMtNsw/lnTwIxbdRkanuHugHI7_CQ" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Период'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Text="[in_DateEnd]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="442, 245, 122, 25" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia helpText='Дата окончания периода сверки' role='поле' /&gt;" FuzzySelectorArgument="&lt;uia helpText='Дата окончания периода сверки' role='поле' automationid='' check:text='.  .' /&gt;" Guid="65a77d8e-15d4-4d39-bf0e-a8160b906620" InformativeScreenshot="2abe6bd34651c6a5b64713b9ec7580ce.png" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="0e4a3816-74f8-4e8c-96a4-b0ad4f5e2c61" CvTextArea="417, 250, 16, 14" CvTextArgument="-" CvType="Text" DesignTimeRectangle="419, 249, 13, 16" FullSelectorArgument="&lt;uia name='—' role='текстовый' /&gt;" FuzzySelectorArgument="&lt;uia name='—' role='текстовый' automationid='' check:fulltext='—' /&gt;" Guid="fe335eb1-85b0-4789-a6bd-e23ffaf2f9a7" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Заполнить'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="NihtXNet-0qlUdjljs4HUw" DesignTimeRectangle="394, 385, 117, 34" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;uia name='По данным организации' role='вкладка' /&gt;&lt;uia role='панель инструментов' /&gt;&lt;uia name='Заполнить' role='кнопка' /&gt;" FuzzySelectorArgument="&lt;uia name='По данным организации' role='вкладка' /&gt;&lt;uia role='панель инструментов' /&gt;&lt;uia name='Заполнить' role='кнопка' automationid='' check:fulltext='Заполнить' /&gt;" Guid="ee283209-a1f9-4d3f-9e7a-e1bb1d16d35d" InformativeScreenshot="884d99c15191a4170881ca72b1596caf.png" Reference="MDpShJ6Cp02rhchQtMtNsw/7XWpMfZE_0SeeB6OUvrtbA" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Заполнить'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="54b9a0fb-86ca-4458-8ec6-ccc3b93729a9" ContentHash="YJ1ze814L06tx5Rewoh7Vw" CvTextArea="55, 11, 265, 18" CvTextArgument="No Haweň oprahw3aLMm M KOHTparehTy" CvType="Text" DesignTimeRectangle="2, 2, 393, 36" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;uia name='По нашей организации и контрагенту' role='элемент меню' /&gt;" FuzzySelectorArgument="&lt;uia name='По нашей организации и контрагенту' role='элемент меню' automationid='' check:fulltext='По нашей организации и контрагенту' /&gt;" Guid="6c2efa05-6db2-479c-b261-70dcd0f1072f" InformativeScreenshot="4979feae9249a9dbd638553336caf63d.png" Reference="MDpShJ6Cp02rhchQtMtNsw/cimISbUjeEWW84dZkob2VA" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8CommandPanelPopup' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Провести'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,225.6" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="cd7f216c-aa8c-4fd3-a838-17b8a792b103" ContentHash="1WSIjDkN9U6o-kJn0_XmEQ" CvElementArea="582, 136, 108, 36" CvTextArea="601, 146, 71, 17" CvTextArgument="NpoBeCTM" CvType="Button" DesignTimeRectangle="585, 138, 104, 34" DesignTimeScaleFactor="1.25" FuzzySelectorArgument="&lt;uia role='панель инструментов' /&gt;&lt;uia name='Провести' role='кнопка' automationid='' check:fulltext='Провести' /&gt;" Guid="4083bd54-12c5-4134-8f62-940de19ef80c" ImageBase64="" InformativeScreenshot="fb8b52768229a0b386bbdb6115889064.png" Reference="MDpShJ6Cp02rhchQtMtNsw/zwicDisCjkqqCR4nNp1uLQ" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="cd7f216c-aa8c-4fd3-a838-17b8a792b103" CvTextArea="394, 100, 523, 21" CvTextArgument="AKT cBepKw pac4eTOB C KOHTpareHTOM (cO3gahne) *" CvType="Text" DesignTimeRectangle="397, 92, 1438, 41" FullSelectorArgument="&lt;uia name='Акт сверки расчетов с контрагентом (создание) *' role='панель' /&gt;" FuzzySelectorArgument="&lt;uia name='Акт сверки расчетов с контрагентом (создание) *' role='панель' automationid='' check:fulltext='Акт сверки расчетов с контрагентом (создание) *' /&gt;" Guid="a48ec385-4dbc-4e97-8619-9481702e6f8e" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Акт сверки расчетов с к…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,225.6" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="2Sy0T8SzVkOK91x8KQCBkw" DesignTimeRectangle="714, 138, 114, 34" DesignTimeScaleFactor="1.25" FuzzySelectorArgument="&lt;uia role='панель инструментов' /&gt;&lt;uia name='Печать' role='кнопка' automationid='' check:fulltext='Печать' /&gt;" Guid="31877d7c-c855-4494-9ba6-cb3cb61445c6" InformativeScreenshot="86e0c035a1b34b7e41ee464e3c379171.png" Reference="MDpShJ6Cp02rhchQtMtNsw/KR_rGianNEi1tA7xua6glg" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="cd7f216c-aa8c-4fd3-a838-17b8a792b103" CvTextArea="394, 100, 523, 21" CvTextArgument="AKT cBepKw pac4eTOB C KOHTpareHTOM (cO3gahne) *" CvType="Text" DesignTimeRectangle="397, 92, 1438, 41" FullSelectorArgument="&lt;uia name='Акт сверки расчетов с контрагентом (создание) *' role='панель' /&gt;" FuzzySelectorArgument="&lt;uia name='Акт сверки расчетов с контрагентом (создание) *' role='панель' automationid='' check:fulltext='Акт сверки расчетов с контрагентом (создание) *' /&gt;" Guid="e899a377-2d91-4779-b309-c2551c5bfd67" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Конверт'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,225.6" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="9aa8c76c-df73-4024-b0d9-fcfef8b5a929" ContentHash="LGn1lFjJtEGsED0Tvwfh6w" CvTextArea="53, 11, 82, 18" CvTextArgument="AKT cBepKM" CvType="Text" DesignTimeRectangle="2, 2, 373, 36" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;uia name='Акт сверки' role='элемент меню' /&gt;" FuzzySelectorArgument="&lt;uia name='Акт сверки' role='элемент меню' automationid='' check:fulltext='Акт сверки' /&gt;" Guid="2dda44ba-2efa-42b2-9263-a346ed3045eb" InformativeScreenshot="414806f358258883b6325da97a1666c5.png" Reference="MDpShJ6Cp02rhchQtMtNsw/M0b0AyCaD0yg81jF-m_1nw" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8CommandPanelPopup' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="9aa8c76c-df73-4024-b0d9-fcfef8b5a929" CvTextArea="55, 85, 61, 18" CvTextArgument="KohBepT" CvType="Text" DesignTimeRectangle="2, 76, 373, 36" FullSelectorArgument="&lt;uia name='Конверт' role='элемент меню' /&gt;" FuzzySelectorArgument="&lt;uia name='Конверт' role='элемент меню' automationid='' check:fulltext='Конверт' /&gt;" Guid="67bbd4b6-ac72-4e76-bae1-f9ff6816a5d2" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Завершить работу с прог…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,218.4" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bbf64a72-f8e9-4441-95fc-752e4f0dddde" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="d892096b-7d47-4375-8bdf-34e8824b9a37" ContentHash="6ZWIISaqOkynCxZQC6SZ6g" CvElementArea="159, 155, 190, 39" CvTextArea="177, 166, 152, 18" CvTextArgument="3aBepWNTb pa6oTy" CvType="Button" DesignTimeRectangle="163, 159, 184, 34" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;uia name='Завершить работу' role='кнопка' /&gt;" FuzzySelectorArgument="&lt;uia name='Завершить работу' role='кнопка' automationid='' check:fulltext='Завершить работу' /&gt;" Guid="d6527d20-2b69-4bf4-afc9-92966527fe81" InformativeScreenshot="af1b371d586e256edb2324045034519d.png" Reference="MDpShJ6Cp02rhchQtMtNsw/z4o38Qfavk25nY3P93aEuw" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDIsec' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="d892096b-7d47-4375-8bdf-34e8824b9a37" CvTextArea="135, 117, 250, 20" CvTextArgument="3aBepwMTb pa6oTy C nporpaMMOÑ?" CvType="Text" DesignTimeRectangle="136, 118, 249, 18" FullSelectorArgument="&lt;uia name='Завершить работу с программой?' role='текстовый' /&gt;" FuzzySelectorArgument="&lt;uia name='Завершить работу с программой?' role='текстовый' automationid='' check:fulltext='Завершить работу с программой?' /&gt;" Guid="49a9960d-a909-4fe3-b140-90002b753998" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="241, 139, 1438, 753" ContentHash="m_74PXpy6kOUE1Fm6v_PSQ" FilePath="C:\Program Files (x86)\1cv8t\8.3.18.1741\bin\1cv8ct.exe" IconBase64="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" InformativeScreenshot="368dfaceb756b67d3f239fe834d8a137.png" Reference="MDpShJ6Cp02rhchQtMtNsw/zC5tFoPEqE6iJJpf7hjWbA" Selector="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1019.2,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Interactions 1c finished!&quot;]" />
+  </Sequence>
+</Activity>

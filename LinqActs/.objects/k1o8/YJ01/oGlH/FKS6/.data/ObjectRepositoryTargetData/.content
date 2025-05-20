@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="P_AcngkLBke-1MvMtUq7vA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="194, 127, 281, 24" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='Пароль' role='поле' /&gt;" FuzzySelectorArgument="&lt;uia name='Пароль' role='поле' automationid='' /&gt;" Guid="73fc4ef4-72ba-4241-a19e-5d5a1778fd89" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameTaxiStarter' title='1С:Предприятие' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b3da275e-0ba3-4b0f-9d2d-662f2f6220b7" CvTextArea="97, 132, 48, 16" CvTextArgument="Naponb:" CvType="Text" DesignTimeRectangle="98, 127, 91, 24" FullSelectorArgument="&lt;uia name='Пароль:' role='текстовый' /&gt;" FuzzySelectorArgument="&lt;uia name='Пароль:' role='текстовый' automationid='' check:fulltext='Пароль:' /&gt;" Guid="03c02029-638b-47f2-8179-b484c305aaf3" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="07a96a899c60d394c93ebad7c89699c6.png" xmlns="">0Zh8m-Hg3m0u8ZQeOfzL0bg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

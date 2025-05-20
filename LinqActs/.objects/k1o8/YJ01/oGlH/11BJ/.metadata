@@ -1,0 +1,13 @@
+﻿{
+  "Name": "АбрамовГС (директор)",
+  "Type": "Element",
+  "Id": "11BJVHYzUEG_2B5rWOSSxw",
+  "Reference": "MDpShJ6Cp02rhchQtMtNsw/11BJVHYzUEG_2B5rWOSSxw",
+  "ParentRef": "MDpShJ6Cp02rhchQtMtNsw/oGlH4K-HLESygik8fAuuow",
+  "Created": "2025-05-12T21:29:29.6194664Z",
+  "Updated": "2025-05-12T21:29:29.6194664Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

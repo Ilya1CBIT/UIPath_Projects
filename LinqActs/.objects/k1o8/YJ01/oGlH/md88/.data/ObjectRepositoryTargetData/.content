@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tLMJi3gRP0qPBYWdtf8LRA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="490985da-5f58-4c3b-ba90-23b8a0a67b5f" CvElementArea="240, 206, 116, 35" CvTextArea="272, 215, 50, 15" CvTextArgument="BoNTM" CvType="Button" DesignTimeRectangle="242, 209, 112, 33" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;uia name='Войти' role='кнопка' /&gt;" FuzzySelectorArgument="&lt;uia name='Войти' role='кнопка' automationid='' check:fulltext='Войти' /&gt;" Guid="5304899d-7388-4e4d-87cf-9cd1cf74ce02" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameTaxiStarter' title='1С:Предприятие' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="cc9583fbfb7dec7d734c81c6c96c7f9e.png" xmlns="">0aDtji9JYQkWdHSAGT22zog</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

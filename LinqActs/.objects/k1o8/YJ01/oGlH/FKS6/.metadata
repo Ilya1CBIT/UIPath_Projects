@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Пароль",
+  "Type": "Element",
+  "Id": "FKS6Dw3bs0SA0lnbbCuSfQ",
+  "Reference": "MDpShJ6Cp02rhchQtMtNsw/FKS6Dw3bs0SA0lnbbCuSfQ",
+  "ParentRef": "MDpShJ6Cp02rhchQtMtNsw/oGlH4K-HLESygik8fAuuow",
+  "Created": "2025-05-12T21:32:07.0695791Z",
+  "Updated": "2025-05-12T21:32:07.0695791Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

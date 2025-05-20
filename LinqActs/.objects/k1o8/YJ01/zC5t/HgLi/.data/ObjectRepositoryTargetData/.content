@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ffnAnaWsEE-qvotp0acFoA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="e2616ce9-dedb-4c64-bb1c-e6786a569736" CvElementArea="196, 138, 80, 29" CvTextArea="211, 146, 50, 15" CvTextArgument="Co3,aTb" CvType="Button" DesignTimeRectangle="198, 140, 77, 27" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;uia role='панель инструментов' /&gt;&lt;uia name='Создать' role='кнопка' automationid='' check:fulltext='Создать' /&gt;" Guid="6e1a9006-31bf-4b2c-9cf9-cdc6a523a648" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e2616ce9-dedb-4c64-bb1c-e6786a569736" CvTextArea="197, 111, 69, 16" CvTextArgument="KohTpareHT:" CvType="Text" DesignTimeRectangle="198, 110, 69, 16" FullSelectorArgument="&lt;uia name='Контрагент:' role='текстовый' /&gt;" FuzzySelectorArgument="&lt;uia name='Контрагент:' role='текстовый' automationid='' check:fulltext='Контрагент:' /&gt;" Guid="87dcf625-320d-42e8-b3a6-6c0d9a29b53a" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ef7d4c505e37f9ca0998ef53bffd6aee.png" xmlns="">0mUs66DSVcEqHV7-1ltrHVw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

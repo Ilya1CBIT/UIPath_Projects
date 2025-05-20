@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KM0uk3zuJ0SimZ70gH1Mzw" Reference="MDpShJ6Cp02rhchQtMtNsw/11BJVHYzUEG_2B5rWOSSxw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b3da275e-0ba3-4b0f-9d2d-662f2f6220b7" CvElementArea="193, 94, 283, 25" CvType="InputBox" DesignTimeRectangle="194, 95, 281, 24" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='Пользователь' role='поле со списком' /&gt;" FuzzySelectorArgument="&lt;uia name='Пользователь' role='поле со списком' automationid='' /&gt;" Guid="3a9917d5-a077-4c26-9d5d-39d14cb91f21" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameTaxiStarter' title='1С:Предприятие' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b3da275e-0ba3-4b0f-9d2d-662f2f6220b7" CvTextArea="97, 100, 87, 13" CvTextArgument="Non630BaTeN6:" CvType="Text" DesignTimeRectangle="98, 95, 91, 24" FullSelectorArgument="&lt;uia name='Пользователь:' role='текстовый' /&gt;" FuzzySelectorArgument="&lt;uia name='Пользователь:' role='текстовый' automationid='' check:fulltext='Пользователь:' /&gt;" Guid="1850d594-6477-4e0f-a3d6-bf219b515502" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="87ba9c14a5221e4827383de620cdca14.png" xmlns="">0UnS59uDlZkqYNbmBThZ2Pw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

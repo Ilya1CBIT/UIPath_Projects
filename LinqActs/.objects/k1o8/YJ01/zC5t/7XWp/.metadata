@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Заполнить",
+  "Type": "Element",
+  "Id": "7XWpMfZE_0SeeB6OUvrtbA",
+  "Reference": "MDpShJ6Cp02rhchQtMtNsw/7XWpMfZE_0SeeB6OUvrtbA",
+  "ParentRef": "MDpShJ6Cp02rhchQtMtNsw/zC5tFoPEqE6iJJpf7hjWbA",
+  "Created": "2025-05-20T12:28:02.7998245Z",
+  "Updated": "2025-05-20T12:28:02.7998245Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

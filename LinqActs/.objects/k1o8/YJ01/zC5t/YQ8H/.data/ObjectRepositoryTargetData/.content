@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yaJx7n2yeU6i5DCEVxWuog" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="e2616ce9-dedb-4c64-bb1c-e6786a569736" CvElementArea="272, 109, 18, 18" CvType="CheckBox" DesignTimeRectangle="272, 110, 17, 17" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='Контрагент:' role='флажок' /&gt;" FuzzySelectorArgument="&lt;uia name='Контрагент:' role='флажок' automationid='' check:fulltext='Контрагент:' /&gt;" Guid="69d847eb-644a-4cad-a81b-92f88f907018" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b3f4f5346136009d0c5ffe9b5568c253.png" xmlns="">0Ah3SP3DVeEuR_gz_tMYQvw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Check</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

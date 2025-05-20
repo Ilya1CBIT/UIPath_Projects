@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Запуск 1СПредприятия (…",
+  "Type": "Element",
+  "Id": "saFvbslSPU6WaRHoUrgZSw",
+  "Reference": "MDpShJ6Cp02rhchQtMtNsw/saFvbslSPU6WaRHoUrgZSw",
+  "ParentRef": "MDpShJ6Cp02rhchQtMtNsw/oGlH4K-HLESygik8fAuuow",
+  "Created": "2025-05-12T21:28:23.7153764Z",
+  "Updated": "2025-05-12T21:28:23.7153764Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

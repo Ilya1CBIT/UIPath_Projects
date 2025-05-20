@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FU6qrmacvEa4knELu4v6AQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="018861ca-fa82-43d5-8595-a2538290a013" CvTextArea="90, 9, 508, 16" CvTextArgument="6yxranTepMA npeANpMATMA (y4e6HaA), peAaKLMA 3.0 1C:NpeANpMATMe, y4e6HaA BepCMA" CvType="Text" DesignTimeRectangle="83, 1, 650, 30" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;uia role='панель инструментов' /&gt;&lt;uia role='текстовый' automationid='' /&gt;" Guid="55f4bb5e-6ff2-4bdc-9a94-4eb90bd84127" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="49, 1, 30, 30" FullSelectorArgument="&lt;uia idx='5' role='панель инструментов' /&gt;&lt;uia name='Функции' role='кнопка' /&gt;" FuzzySelectorArgument="&lt;uia role='панель инструментов' /&gt;&lt;uia name='Функции' role='кнопка' automationid='' check:fulltext='Функции' /&gt;" Guid="a5469ec9-4ea1-42d4-a008-aab96fd3f1a2" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a930ac0a3f083225a3961d04e00f7ec9.png" xmlns="">0y1fCDrWZ0UK5Ia0twRoDPg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

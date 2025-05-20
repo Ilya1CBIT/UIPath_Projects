@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2Sy0T8SzVkOK91x8KQCBkw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="714, 138, 114, 34" DesignTimeScaleFactor="1.25" FuzzySelectorArgument="&lt;uia role='панель инструментов' /&gt;&lt;uia name='Печать' role='кнопка' automationid='' check:fulltext='Печать' /&gt;" Guid="31877d7c-c855-4494-9ba6-cb3cb61445c6" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cd7f216c-aa8c-4fd3-a838-17b8a792b103" CvTextArea="394, 100, 523, 21" CvTextArgument="AKT cBepKw pac4eTOB C KOHTpareHTOM (cO3gahne) *" CvType="Text" DesignTimeRectangle="397, 92, 1438, 41" FullSelectorArgument="&lt;uia name='Акт сверки расчетов с контрагентом (создание) *' role='панель' /&gt;" FuzzySelectorArgument="&lt;uia name='Акт сверки расчетов с контрагентом (создание) *' role='панель' automationid='' check:fulltext='Акт сверки расчетов с контрагентом (создание) *' /&gt;" Guid="e899a377-2d91-4779-b309-c2551c5bfd67" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="86e0c035a1b34b7e41ee464e3c379171.png" xmlns="">0xdNh80_EYkKgEm7eoLU-Gg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eZ1SnW3gHE-P3JxkdXK5zA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="af166c20-38fd-4949-b8b2-e02fc536d3e7" CvTextArea="528, 202, 144, 16" CvTextArgument="AKTbI cBepKM pacueToB" CvType="Text" DesignTimeRectangle="509, 199, 164, 20" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='ПРОДАЖИ' role='группа' /&gt;&lt;uia role='группа' /&gt;&lt;uia name='Расчеты с контрагентами' role='группа' /&gt;&lt;uia name='Акты сверки расчетов' role='элемент меню' /&gt;" Guid="e0d23892-88f0-420a-803d-a093fc96f606" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c2a66ef4bfd04c5d7bc1039ec56f4733.png" xmlns="">0mFeWa9avaEWwVKQ33z6wBw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

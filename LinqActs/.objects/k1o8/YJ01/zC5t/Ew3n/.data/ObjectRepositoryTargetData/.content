@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Y1i9OS3AKUSmJVSdR3WkVg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="287, 245, 122, 25" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='Период:' role='поле' /&gt;" FuzzySelectorArgument="&lt;uia name='Период:' role='поле' automationid='' check:text='.  .' /&gt;" Guid="12246f21-1de3-47fb-8541-2f2a464313c8" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0e4a3816-74f8-4e8c-96a4-b0ad4f5e2c61" CvTextArea="197, 250, 49, 16" CvTextArgument="Nepmop:" CvType="Text" DesignTimeRectangle="198, 249, 49, 16" FullSelectorArgument="&lt;uia name='Период:' role='текстовый' /&gt;" FuzzySelectorArgument="&lt;uia name='Период:' role='текстовый' automationid='' check:fulltext='Период:' /&gt;" Guid="5120179f-c3e4-4a44-a686-4eef464bc5b7" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c7cc8aab5708aaa59e51030aafdc7aa7.png" xmlns="">0kgwudgJ8z0Cjvc8tYanf2Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

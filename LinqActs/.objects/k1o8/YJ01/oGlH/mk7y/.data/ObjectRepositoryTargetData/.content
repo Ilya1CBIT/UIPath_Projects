@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Zh8BSA_M5kGyeKYdRtAjQw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8af8c648-a378-48b6-8530-088554c5ee0f" CvTextArea="23, 104, 253, 16" CvTextArgument="6yxranTepMA npeANpMATMA y4e6HaA (AeMo)" CvType="Text" DesignTimeRectangle="16, 97, 310, 29" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='Информационные базы' role='список' /&gt;&lt;uia name='Бухгалтерия предприятия учебная (демо)' role='элемент списка' /&gt;" FuzzySelectorArgument="&lt;uia name='Информационные базы' role='список' /&gt;&lt;uia name='Бухгалтерия предприятия учебная (демо)' role='элемент списка' automationid='' check:fulltext='Бухгалтерия предприятия учебная (демо)' /&gt;" Guid="2d5bd6f1-1ad0-4e11-9dfc-e689f0728db1" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameTaxiStarter' title='Запуск 1С:Предприятия (учебной версии)' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="40f8d5d256bf3a21f9b88e5b01dee29a.png" xmlns="">0Fn2zqoKix0CxG-bcI-UniQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

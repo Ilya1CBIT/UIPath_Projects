@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6ZWIISaqOkynCxZQC6SZ6g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="d892096b-7d47-4375-8bdf-34e8824b9a37" CvElementArea="159, 155, 190, 39" CvTextArea="177, 166, 152, 18" CvTextArgument="3aBepWNTb pa6oTy" CvType="Button" DesignTimeRectangle="163, 159, 184, 34" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;uia name='Завершить работу' role='кнопка' /&gt;" FuzzySelectorArgument="&lt;uia name='Завершить работу' role='кнопка' automationid='' check:fulltext='Завершить работу' /&gt;" Guid="d6527d20-2b69-4bf4-afc9-92966527fe81" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDIsec' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d892096b-7d47-4375-8bdf-34e8824b9a37" CvTextArea="135, 117, 250, 20" CvTextArgument="3aBepwMTb pa6oTy C nporpaMMOÑ?" CvType="Text" DesignTimeRectangle="136, 118, 249, 18" FullSelectorArgument="&lt;uia name='Завершить работу с программой?' role='текстовый' /&gt;" FuzzySelectorArgument="&lt;uia name='Завершить работу с программой?' role='текстовый' automationid='' check:fulltext='Завершить работу с программой?' /&gt;" Guid="49a9960d-a909-4fe3-b140-90002b753998" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="af1b371d586e256edb2324045034519d.png" xmlns="">0fC4Ji7F8iE6OZsi8JSOATA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

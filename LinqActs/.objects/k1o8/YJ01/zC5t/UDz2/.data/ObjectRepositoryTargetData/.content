@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="t42x54IMQUCFu9g9QTzC5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="e2616ce9-dedb-4c64-bb1c-e6786a569736" CvElementArea="298, 105, 1114, 27" CvType="InputBox" DesignTimeRectangle="299, 106, 1119, 25" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia role='поле со списком' /&gt;" FuzzySelectorArgument="&lt;uia role='поле со списком' automationid='' /&gt;" Guid="6444e367-cdfa-49f2-87bb-3a8512575b2e" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameSDI' title='Бухгалтерия предприятия (учебная), редакция 3.0' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e2616ce9-dedb-4c64-bb1c-e6786a569736" CvTextArea="314, 75, 343, 21" CvTextArgument="AKTbI cBepKM pac4eTOB C KOHTpareHTaMM" CvType="Text" DesignTimeRectangle="316, 68, 1016, 33" FullSelectorArgument="&lt;uia name='Акты сверки расчетов с контрагентами' role='панель' /&gt;" FuzzySelectorArgument="&lt;uia name='Акты сверки расчетов с контрагентами' role='панель' automationid='' check:fulltext='Акты сверки расчетов с контрагентами' /&gt;" Guid="b407837a-5cd9-4aec-831a-eec58adc39aa" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ac69c65015fa39f7fb7daf436de64d15.png" xmlns="">0e-uFHFC4P0OvGIW8Zu0TdQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

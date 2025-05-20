@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Войти",
+  "Type": "Element",
+  "Id": "md88s42lYUq6ucmfvs_itg",
+  "Reference": "MDpShJ6Cp02rhchQtMtNsw/md88s42lYUq6ucmfvs_itg",
+  "ParentRef": "MDpShJ6Cp02rhchQtMtNsw/oGlH4K-HLESygik8fAuuow",
+  "Created": "2025-05-20T12:16:01.7780326Z",
+  "Updated": "2025-05-20T12:16:01.7780326Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

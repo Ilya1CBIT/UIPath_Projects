@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iwrWyEhkfk2CncfvU4R3rg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8af8c648-a378-48b6-8530-088554c5ee0f" CvElementArea="342, 66, 142, 27" CvTextArea="376, 72, 98, 16" CvTextArgument="1C:Ape,ANpMaTMe" CvType="Button" DesignTimeRectangle="343, 67, 140, 25" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia name='1С:Предприятие' role='кнопка' /&gt;" FuzzySelectorArgument="&lt;uia name='1С:Предприятие' role='кнопка' automationid='' check:fulltext='1С:Предприятие' /&gt;" Guid="79ffbc37-c549-4090-8ad8-f86800042a1d" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8TopLevelFrameTaxiStarter' title='Запуск 1С:Предприятия (учебной версии)' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8af8c648-a378-48b6-8530-088554c5ee0f" CvTextArea="12, 12, 364, 21" CvTextArgument="3anycK 1C:ApegNpNATMA (y4e6HOň Bepcnn)" CvType="Text" DesignTimeRectangle="13, 1, 362, 40" FullSelectorArgument="&lt;uia role='панель инструментов' /&gt;&lt;uia name='Запуск 1С:Предприятия (учебной версии)' role='кнопка' /&gt;" FuzzySelectorArgument="&lt;uia role='панель инструментов' /&gt;&lt;uia name='Запуск 1С:Предприятия (учебной версии)' role='кнопка' automationid='' check:fulltext='Запуск 1С:Предприятия (учебной версии)' /&gt;" Guid="8361a1b4-11c4-4df7-bfad-76a0bf00df4f" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="42f99270e1ca5d0fcbb45b2dcc4e9953.png" xmlns="">06IYz_fzRKEeONZihNgIcAg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

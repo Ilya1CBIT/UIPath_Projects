@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Бухгалтерия предприятия…",
+  "Type": "Element",
+  "Id": "mk7y6PLxM0SlD4Ztd0O8Aw",
+  "Reference": "MDpShJ6Cp02rhchQtMtNsw/mk7y6PLxM0SlD4Ztd0O8Aw",
+  "ParentRef": "MDpShJ6Cp02rhchQtMtNsw/oGlH4K-HLESygik8fAuuow",
+  "Created": "2025-05-12T21:27:36.6548794Z",
+  "Updated": "2025-05-12T21:27:36.6548794Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

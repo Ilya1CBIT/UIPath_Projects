@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Главное",
+  "Type": "Element",
+  "Id": "_bq8KkrbFEij-9aQmO_VLQ",
+  "Reference": "MDpShJ6Cp02rhchQtMtNsw/_bq8KkrbFEij-9aQmO_VLQ",
+  "ParentRef": "MDpShJ6Cp02rhchQtMtNsw/zC5tFoPEqE6iJJpf7hjWbA",
+  "Created": "2025-05-12T21:38:31.8683372Z",
+  "Updated": "2025-05-12T21:38:31.8683372Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

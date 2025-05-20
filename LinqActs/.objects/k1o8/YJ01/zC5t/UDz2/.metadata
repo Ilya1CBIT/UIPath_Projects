@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Акты сверки расчетов с …",
+  "Type": "Element",
+  "Id": "UDz2HS3GMESjCAonelJo8g",
+  "Reference": "MDpShJ6Cp02rhchQtMtNsw/UDz2HS3GMESjCAonelJo8g",
+  "ParentRef": "MDpShJ6Cp02rhchQtMtNsw/zC5tFoPEqE6iJJpf7hjWbA",
+  "Created": "2025-05-12T21:51:14.7564258Z",
+  "Updated": "2025-05-12T21:51:14.7564258Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LGn1lFjJtEGsED0Tvwfh6w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="9aa8c76c-df73-4024-b0d9-fcfef8b5a929" CvTextArea="53, 11, 82, 18" CvTextArgument="AKT cBepKM" CvType="Text" DesignTimeRectangle="2, 2, 373, 36" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;uia name='Акт сверки' role='элемент меню' /&gt;" FuzzySelectorArgument="&lt;uia name='Акт сверки' role='элемент меню' automationid='' check:fulltext='Акт сверки' /&gt;" Guid="2dda44ba-2efa-42b2-9263-a346ed3045eb" ScopeSelectorArgument="&lt;wnd app='1cv8ct.exe' cls='V8CommandPanelPopup' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9aa8c76c-df73-4024-b0d9-fcfef8b5a929" CvTextArea="55, 85, 61, 18" CvTextArgument="KohBepT" CvType="Text" DesignTimeRectangle="2, 76, 373, 36" FullSelectorArgument="&lt;uia name='Конверт' role='элемент меню' /&gt;" FuzzySelectorArgument="&lt;uia name='Конверт' role='элемент меню' automationid='' check:fulltext='Конверт' /&gt;" Guid="67bbd4b6-ac72-4e76-bae1-f9ff6816a5d2" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="414806f358258883b6325da97a1666c5.png" xmlns="">0S8SqRN-D5kqkR5CRYyBJyQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
